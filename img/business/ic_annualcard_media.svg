@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="88px" viewBox="0 0 70 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_annualcard_media</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE763" offset="0%"></stop>
+            <stop stop-color="#FCBE01" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.3522656%" y1="10.0453016%" x2="79.3108496%" y2="93.284193%" id="linearGradient-2">
+            <stop stop-color="#88E14C" offset="0%"></stop>
+            <stop stop-color="#67C446" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于-商业合作" transform="translate(-215.000000, -2643.000000)">
+            <g id="企业年卡" transform="translate(0.000000, 2313.000000)">
+                <g id="Group-2" transform="translate(185.000000, 99.000000)">
+                    <g id="ic_annualcard_media" transform="translate(30.000000, 231.000000)">
+                        <path d="M50,0 L7.34434896,0 C3.28817708,0 0,3.10028125 0,6.92467188 L0,81.0755 C0,84.8997188 3.28817708,88 7.34434896,88 L62.6558333,88 C66.7118229,88 70,84.8997188 70,81.0755 L70,20 L50,0 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <path d="M70,20 L50,0 L47,0 L47,13.2378583 C47,18.6071811 51.478246,23 56.8901825,23 L70,23 L70,20 Z" id="Shape" fill="#FCF9E6" fill-rule="nonzero"></path>
+                        <path d="M50,0 L50,12.553945 C50,16.6366972 53.4118519,20 57.5324074,20 L70,20 L50,0 Z" id="Shape" fill="#F3A503" fill-rule="nonzero"></path>
+                        <path d="M48.4639104,46.5729628 L28.5423124,58.513553 C27.1211825,59.3653486 25.2786123,58.903812 24.4268167,57.4826821 C24.147521,57.0167071 24,56.4836364 24,55.9403697 L24,32.0591892 C24,30.4023349 25.3431458,29.0591892 27,29.0591892 C27.5432668,29.0591892 28.0763374,29.2067102 28.5423124,29.4860058 L48.4639104,41.4265961 C49.8850403,42.2783917 50.3465769,44.1209619 49.4947813,45.5420918 C49.2411482,45.9652515 48.8870701,46.3193297 48.4639104,46.5729628 Z" id="Triangle" fill="url(#linearGradient-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="商业合作" transform="translate(-483.000000, -3319.000000)" fill="#FF5555">
+            <path d="M490,3333 C486.134007,3333 483,3329.86599 483,3326 C483,3322.13401 486.134007,3319 490,3319 C493.865993,3319 497,3322.13401 497,3326 C497,3329.86599 493.865993,3333 490,3333 Z M489,3322 L489,3327 L491,3327 L491,3322 L489,3322 Z M489,3328 L489,3330 L491,3330 L491,3328 L489,3328 Z" id="ic_warning"></path>
+        </g>
+    </g>
+</svg>

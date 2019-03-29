@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ofo大数据开放平台</title>
+		<link href="img/main/favicon.ico" rel="shortcut icon" />
+		<link href="css/public.css" rel="stylesheet">
+		<link href="css/bigdata.css" rel="stylesheet">
+		<link href="css/animation.css" rel="stylesheet">	
+	</head>
+	<body>
+		<header>	
+			<div class="top">
+				<ul class="menu">
+					<li class="main-page"><a href="main.html">首页</a></li>
+					<!-- <li class="news-page"><a href="/#/news">新闻</a></li> -->
+					<li class="about-page"><a href="abouts.html">关于</a></li>
+				</ul>
+				<span></span>
+			</div>
+			<div class="head-body">
+				<div class="text-bar">
+					<span class="o-img1">
+						<img src="img/bigdata/Oval2.png" alt="">
+					</span>
+					<div class="text-body">
+						<p class="f36 tr-title">ofo奇点大数据系统</p>
+						<p class="f80 tr-con">开放平台</p>
+						<p class="f20 tr-bot">共建城市智慧交通 数据实时共享</p>
+					</div>			
+					<span class="o-img2">
+						<img src="img/bigdata/Oval1.png" alt="">
+					</span>
+				</div>				
+			</div>
+			<img src="img/bigdata/homepage_headpic01.png" alt="">
+		</header>
+		<!--  -->
+		<section>
+			<div class="col-1140">
+				<div class="left-wrapper clearfix">
+					<div class="fl pic-bar">
+						<img src="img/bigdata/homepage_pic_1.png" alt="">
+					</div>
+					<div class="fl text-bar">
+						<h3 class="f20">数据开放平台</h3>
+						<p class="mt10">共享车辆实时数据，支持城市单车投放与管理规范化</p>
+					</div>
+				</div>
+				<div class="right-wrapper clearfix">
+					<div class="fl text-bar">
+						<h3 class="f20">API数据接口</h3>
+						<p class="mt10">支持实时数据推送至政府数据库，助力共建城市智慧交通</p>
+					</div>
+					<div class="fr pic-bar">
+						<img src="img/bigdata/homepage_pic_2.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="pic-wrapper">
+				<ul class="clearfix">
+					<li>
+						<span></span>
+						<h3 class="f20">单车投放</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3 class="f20">车辆状态</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3 class="f20">交通流量</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3 class="f20">运维监管</h3>
+					</li>
+					<li>
+						<span></span>
+						<h3 class="f20">企业信息</h3>
+					</li>
+				</ul>
+			</div>
+			<article>
+				<h3 class="f20">政府合作</h3>
+				<p>政府合作联系邮箱：grdata@ofo.com</p>
+				<!-- <p>政府合作联系微信：123456</p>
+				<p>技术交流QQ群：123456</p> -->
+				<p class="hint">* 为及时处理您的问题，邮件中请注明政府所属城市、联系人手机号</p>
+			</article>
+		</section>
+		<!--  -->
+		<footer>
+			<div class="icon-bar">
+				<span class="logo-slogan"></span>
+				<a id='___szfw_logo___' href='https://credit.szfw.org/CX20170726035260000588.html' target='_blank'>
+					<span class="bitmap"></span>
+				</a>	
+				<div>
+					<a href="https://weibo.com/ofobike?is_hot=1" class="wrapper-a weibo"></a>
+					<a href="javascript:;" class="wrapper-a weixin">
+						<div class="erweima">
+							<img src="img/main/mobile_weixin.png" alt="">
+						</div>
+					</a>
+				</div>
+			</div>
+			<article>
+				<p>4001 507 507（周一至周日：7X24H） 北京市海淀区北四环西路58号理想国际大厦11层</p>
+				<p>Copyright © 2017 ofo Inc. 保留所有权利。京公网安备 11010802022978号   |   公共事务邮箱 gr@ofo.so 商务合作邮箱 bdinchina@ofo.so</p>
+			</article>
+		</footer>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script>
+			$(function(){
+				$(".weixin").hover(function(){
+					$(".erweima").show();
+				}, function(){
+					$(".erweima").hide();
+				})
+				window.addEventListener('scroll', function() {
+					var scroll = document.documentElement.scrollTop || document.body.scrollTop;
+					// console.log(scroll);
+					if(scroll>0) {
+						$(".top").addClass("top-fixed");
+						$(".top").children("span").addClass("top-fixed-img");
+					} else {
+						$(".top").removeClass("top-fixed");
+						$(".top").children().removeClass("top-fixed-img");
+					}
+				});
+				$(".top").children("span").on("click", function() {
+					window.location.href = 'main.html';
+					return false; 
+				})
+			})
+		</script>
+	</body>
+</html>

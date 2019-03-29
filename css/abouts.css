@@ -1,0 +1,2005 @@
+.app {
+	height: 100%;
+}
+
+.header {
+	width: 100vw;
+	height: 5vw;
+	line-height: 5vw;
+	z-index: 2;
+	position: fixed;
+	background: white;
+}
+
+.line {
+	width: 100vw;
+	height: 1px;
+	background-color: #000000;
+	position: absolute;
+	top: 5vw;
+	opacity: 0.1;
+}
+
+.navDiv {
+	color: #000000;
+	position: absolute;
+	top: 0;
+	margin-left: 2.5vw;
+}
+
+.navDiv li {
+	float: left;
+	font-family: PingFangSC-Regular;
+	font-size: 1vw;
+	margin-right: 2.1vw;
+	cursor: pointer;
+}
+
+.ofoBlack {
+	width: 10vw;
+	height: 2.1vw;
+	display: inline-block;
+	position: absolute;
+	left: 45vw;
+	top: 1.4vw;
+	cursor: pointer;
+}
+
+.unactive {
+	opacity: 0.5;
+}
+
+.aboutsImg {
+	position: absolute;
+	top: 5vw;
+	width: 100vw;
+}
+
+.aboutsImg img {
+	width: 100vw;
+	height: 28vw;
+	filter: brightness(65%);
+}
+
+.aboutsImg .us {
+	position: absolute;
+	width: 100vw;
+	color: white;
+	top: 9.5vw;
+	font-size: 3vw;
+	text-align: center;
+	letter-spacing: 0.5vw;
+	font-weight: 600;
+}
+
+.aboutsImg .global {
+	position: absolute;
+	width: 100vw;
+	color: white;
+	top: 13.5vw;
+	font-size: 1.3vw;
+	text-align: center;
+	font-family: PingFangSC-Regular;
+}
+
+.aboutsNav {
+	position: absolute;
+	top: 33vw;
+	width: 100vw;
+	height: 6vw;
+	border-bottom: 1px #E5E5E5 solid;
+}
+
+.aboutsNav ul {
+	width: 80vw;
+	height: 6vw;
+	margin: 0 auto;
+}
+
+.aboutsNav ul li {
+	float: left;
+	width: 10vw;
+	height: 6vw;
+	font-size: 1vw;
+	margin-left: 0.3vw;
+	line-height: 6vw;
+	color: #808080;
+	text-align: center;
+	font-family: PingFangSC-Regular;
+}
+
+.aboutsJoin {
+	position: absolute;
+	top: 39vw;
+	width: 100%;
+	margin-top: 0.1vw;
+	background-color: #FFD900;
+	height: 40vw;
+}
+
+.aboutsJoin .joinOfo {
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	width: 100%;
+	margin-top: 5vw;
+	font-family: PingFangSC-Semibold;
+}
+
+.aboutsJoin .withUs {
+	font-size: 20px;
+	text-align: center;
+	font-family: PingFangSC-Semibold;
+	width: 100%;
+	margin-top: 3vw;
+}
+/*
+.aboutsJoin img {
+	display: block;
+	margin: 0 auto;
+	width: 60vw;
+	height: 30vw;
+	margin-top: 7vw;
+}*/
+
+a {
+	text-underline: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.aboutsJoin .see {
+	color: #3e3a39;
+	position: absolute;
+	outline: none;
+	background: url(../img/about/aboutJoin/btn_jobs_nor.png);
+	width: 50vw;
+	height: 95px;
+	top: 41vw;
+	left: 30vw;
+}
+
+.aboutTab {
+	position: absolute;
+	top: 39vw;
+	width: 100%;
+	background-color: #FFFFFF;
+	height: auto;
+	display: none;
+}
+
+.aboutShow {
+	display: block;
+}
+
+.textpage2 {
+	position: relative;
+	width: 880px;
+	height: auto;
+	margin: 5vw auto 0;
+}
+
+.textpage2 .box1 {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 93px;
+	overflow: hidden;
+}
+
+.textTitle {
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+}
+
+.time {
+	margin-left: 18px;
+	margin-right: 20px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 700;
+	font-size: 24px;
+	color: #3e3a39;
+}
+
+.context1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 60px;
+}
+
+.context1 .icon1 {
+	display: inline-block;
+	width: 4px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+	height: 60px;
+}
+
+.context1 ul {
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+
+.context1 ul li {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #3e3a39;
+	line-height: 30px;
+}
+
+.context1 ul li span {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	margin-right: 30px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 700;
+	font-size: 16px;
+	color: #3e3a39;
+}
+
+.context1 ul li div {
+	display: inline-block;
+	width: 624px;
+}
+
+.textpage2 .box2 {
+	position: relative;
+	width: 100%;
+	height: 123px;
+	overflow: hidden;
+}
+
+.context1 .icon2 {
+	display: inline-block;
+	width: 4px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+	height: 115px;
+}
+
+.textpage2 .box3 {
+	position: relative;
+	width: 100%;
+	height: 303px;
+	overflow: hidden;
+}
+
+.context1 .icon3 {
+	display: inline-block;
+	width: 4px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+	height: 303px;
+}
+
+.textpage2 .box4 {
+	position: relative;
+	width: 100%;
+	height: 1910px;
+	overflow: hidden;
+}
+
+.context1 .icon4 {
+	display: inline-block;
+	width: 4px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+	height: 1910px;
+}
+
+.textpage2 .box5 {
+	position: relative;
+	width: 100%;
+	height: 290px;
+	overflow: hidden;
+}
+
+.context1 .icon5 {
+	display: inline-block;
+	width: 4px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage3 {
+	position: relative;
+	margin-top: 5vw;
+	width: 60vw;
+	height: 80%;
+	left: 50%;
+	margin-left: -20vw;
+}
+
+.textpage3 .box1 {
+	position: relative;
+	width: 100%;
+	top: 0;
+	height: 125px;
+}
+
+.textpage3 .box1 .context1 {
+	position: absolute;
+	top: 35px;
+	width: 100%;
+	height: 90px;
+}
+
+.textpage3 .box1 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+	height: 90px;
+}
+
+.textpage3 .box2 {
+	position: relative;
+	width: 100%;
+	height: 95px;
+	overflow: hidden;
+}
+
+.textpage3 .box2 .context1 {
+	position: absolute;
+	top: 35px;
+	width: 100%;
+	height: 60px;
+}
+
+.textpage3 .box2 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+	height: 60px;
+}
+
+.textpage3 .box3 {
+	position: relative;
+	width: 100%;
+	height: 145px;
+	overflow: hidden;
+}
+
+.textpage3 .box3 .context1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 90px;
+}
+
+.textpage3 .box3 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 120px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage3 .box4 {
+	position: relative;
+	width: 100%;
+	height: 183px;
+	overflow: hidden;
+}
+
+.textpage3 .box4 .context1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 150px;
+}
+
+.textpage3 .box4 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 150px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage3 .box5 {
+	position: relative;
+	width: 100%;
+	height: 183px;
+	overflow: hidden;
+}
+
+.textpage3 .box5 .context1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 150px;
+}
+
+.textpage3 .box5 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 150px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage3 .box6 {
+	position: relative;
+	width: 100%;
+	height: 273px;
+	overflow: hidden;
+}
+
+.textpage3 .box6 .context1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 240px;
+}
+
+.textpage3 .box6 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 240px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage3 .box7 {
+	position: relative;
+	width: 100%;
+	height: 93px;
+}
+
+.textpage3 .box7 .context1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 60px;
+}
+
+.textpage3 .box7 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 60px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage3 .box8 {
+	position: relative;
+	width: 100%;
+	height: 93px;
+}
+
+.textpage3 .box8 .context1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 60px;
+}
+
+.textpage3 .box8 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 60px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage3 .box9 {
+	position: relative;
+	width: 100%;
+	height: 123px;
+	margin-bottom: 100px;
+}
+
+.textpage3 .box9 .context1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 120px;
+}
+
+.textpage4 {
+	margin-top: 5vw;
+}
+
+.textpage4 img {
+	display: block;
+	margin: 0 auto;
+	width: 76.4vw;
+	border-style: none;
+}
+
+.title {
+	position: relative;
+	width: 77.1vw;
+	height: 2.3vw;
+	line-height: 2.3vw;
+	margin: 60px auto 0;
+}
+
+.title .icon1 {
+	display: inline-block;
+	position: absolute;
+	width: 32%;
+	height: 2px;
+	opacity: .1;
+	background: #000;
+	margin-bottom: .56vw;
+	top: 50%;
+	margin-top: -1px;
+}
+
+.title .text {
+	display: inline-block;
+	position: absolute;
+	font-family: PingFangSC-Semibold;
+	width: 33.5%;
+	height: 2.3vw;
+	font-size: 1.2vw;
+	font-weight: 700;
+	color: #3e3a39;
+	left: 50%;
+	margin-left: -15.75%;
+}
+
+.title .icon2 {
+	display: inline-block;
+	position: absolute;
+	width: 32%;
+	height: 2px;
+	opacity: .1;
+	background: #000;
+	margin-bottom: .56vw;
+	top: 50%;
+	margin-top: -1px;
+	right: 0;
+}
+
+.textpage5 {
+	position: relative;
+	margin-top: 5vw;
+	width: 60vw;
+	height: 80%;
+	left: 50%;
+	margin-left: -20vw;
+}
+
+.textpage5 .box1 {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 93px;
+}
+
+.textpage5 .box1 .context1 {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+}
+
+.textpage5 .box1 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 60px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage5 .box2 {
+	position: relative;
+	width: 100%;
+	height: 153px;
+}
+
+.textpage5 .box2 .context1 {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+}
+
+.textpage5 .box2 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 120px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage5 .box3 {
+	position: relative;
+	width: 100%;
+	height: 153px;
+}
+
+.textpage5 .box3 .context1 {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+}
+
+.textpage5 .box3 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 120px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage5 .box4 {
+	position: relative;
+	width: 100%;
+	height: 243px;
+}
+
+.textpage5 .box4 .context1 {
+	position: absolute;
+	width: 100%;
+	height: 210px;
+}
+
+.textpage5 .box4 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 210px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage5 .box5 {
+	position: relative;
+	width: 100%;
+	height: 93px;
+}
+
+.textpage5 .box5 .context1 {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+}
+
+.textpage5 .box5 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 60px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage5 .box6 {
+	position: relative;
+	width: 100%;
+	height: 153px
+}
+
+.textpage5 .box6 .context1 {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+}
+
+.textpage5 .box6 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 120px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage5 .box7 {
+	position: relative;
+	width: 100%;
+	height: 183px;
+}
+
+.textpage5 .box7 .context1 {
+	position: absolute;
+	width: 100%;
+	height: 150px;
+}
+
+.textpage5 .box7 .context1 .icon {
+	display: inline-block;
+	width: 4px;
+	height: 150px;
+	opacity: .1;
+	background: #000;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.textpage5 .box8 {
+	position: relative;
+	width: 100%;
+	height: 213px;
+}
+
+.textpage5 .box8 .contain {
+	position: absolute;
+	width: 100%;
+	height: 180px;
+}
+
+.con {
+	widows: 100vw;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	min-width: 1050px;
+}
+
+.textpage1 {
+	margin: 50px auto;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	padding-top: 50px;
+	padding-bottom: 1px;
+	position: relative;
+	width: 900px;
+}
+
+.textpage1 .bg {
+	width: 100vw;
+	height: 100%;
+	top: 0;
+	right: -170px;
+	position: absolute;
+	background: url(https://ofo.oss-cn-qingdao.aliyuncs.com/ofoweb/official/news_2018_04_02/pc/aboutOFO/bg_about_ofo.svg) repeat-y 100% 0;
+}
+
+.con .adboutsub {
+	height: 35px;
+	font-family: PingFangSC-Semibold;
+	font-size: 46px;
+	color: #3e3a39;
+	margin-bottom: 20px;
+	position: relative;
+	background: #ffd900;
+}
+
+.con .adboutsub1 {
+	width: 193px;
+}
+
+.con .adboutsub3 {
+	width: 480px;
+}
+
+.con .adboutsub2 {
+	width: 180px;
+}
+
+.con .font-blod {
+	font-family: PingFangSC-Semibold;
+	font-weight: 700;
+	color: #3e3a39;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.con .font-blod span {
+	position: absolute;
+	top: -22px;
+}
+
+.textpage1 .text {
+	position: relative;
+}
+
+.textpage1 p {
+	margin-bottom: 50px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #3e3a39;
+}
+
+
+/*融资情况*/
+
+.wrap-market {
+	width: 100%;
+	height: auto;
+	margin: 10px 0 50px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+	position: relative;
+	border: 1px solid #fff;
+	border-top-color: rgb(255, 255, 255);
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-right-color: rgb(255, 255, 255);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: rgb(255, 255, 255);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(255, 255, 255);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+}
+
+.wrap-market .bottom {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	height: 728px;
+}
+
+.wrap-market .bottom .right {
+	width: 100vw;
+	position: absolute;
+	left: -51px;
+	top: 0;
+	height: 650px;
+	background: url(https://ofo.oss-cn-qingdao.aliyuncs.com/ofoweb/official/news_2018_04_02/pc/aboutOFO/bg_about_financing.svg) no-repeat 0 0;
+	background-image: url(https://ofo.oss-cn-qingdao.aliyuncs.com/ofoweb/official/news_2018_04_02/pc/aboutOFO/bg_about_financing.svg);
+	
+	background-size: auto 100%;
+}
+
+.wrap-market .bottom .left {
+	width: 100vw;
+	height: 632px;
+	position: absolute;
+	right: 420px;
+	top: 97px;
+	background: #fbfbfb;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(251, 251, 251);
+}
+
+.wrap-market .bottom .text {
+	position: absolute;
+	width: 480px;
+	padding-top: 40px;
+}
+.wrap-market .bottom .text h2{
+    font-family: PingFangSC-Semibold;
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 43px;
+}
+.wrap-market .bottom .text p .con-left{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #3e3a39;
+}
+.wrap-market .bottom .text p .con-right{
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #3e3a39;
+    margin-left: 50px;
+}
+.wrap-market .bottom .text p{
+    margin-bottom: 40px;
+}
+/*
+ * 创始团队
+ */
+.wrap-team{
+    padding-bottom: 50px;
+}
+.wrap-team .center{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrap-team .center .bg-team-left{
+    width: 100vw;
+    height: 570px;
+    position: absolute;
+    right: -60px;
+    top: 60px;
+    background: #ffd900;
+        background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 217, 0);
+    margin-top: 35px;
+}
+.wrap-team .center .text-con {
+    position: relative;
+}
+.wrap-team .center .bg-team-right{
+    width: 192px;
+    height: 570px;
+    position: absolute;
+    top: 60px;
+    right: -256px;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.wrap-team .center .text-con p{
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #3e3a39;
+    margin-top: 30px;
+}
+
+.wrap-team .center .text-con img{
+    height: 470px;
+    margin-top: 30px;
+}
+img{
+    width: 100%;
+}
+img {
+    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+/*.center2{
+	margin-top: 100px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	overflow-x: hidden;
+}
+
+.aboutHeader {
+	height: 41vw;
+	width: 100vw;
+}
+
+
+/*头部*/
+
+.header {
+	width: 100vw;
+	height: 5vw;
+	line-height: 5vw;
+	z-index: 2;
+	position: fixed;
+	background: white;
+}
+
+.line {
+	width: 100vw;
+	height: 1px;
+	background-color: #000000;
+	position: absolute;
+	top: 5vw;
+	opacity: 0.1;
+}
+
+.navDiv {
+	color: #000000;
+	position: absolute;
+	top: 0;
+	margin-left: 2.5vw;
+}
+
+.navDiv li {
+	float: left;
+	font-family: PingFangSC-Regular;
+	font-size: 1vw;
+	margin-right: 2.1vw;
+	cursor: pointer;
+}
+
+.ofoBlack {
+	width: 10vw;
+	height: 2.1vw;
+	display: inline-block;
+	position: absolute;
+	left: 45vw;
+	top: 1.4vw;
+	cursor: pointer;
+}
+
+.unactive {
+	opacity: 0.5;
+}
+
+
+/*头部图片*/
+
+.aboutsImg {
+	position: absolute;
+	top: 5vw;
+	width: 100vw;
+}
+
+.aboutsImg img {
+	width: 100vw;
+	height: 30vw;
+	filter: brightness(65%);
+}
+
+
+/*关于我们*/
+
+.aboutsImg .us {
+	position: absolute;
+	width: 100vw;
+	color: white;
+	top: 12.7vw;
+	font-size: 3vw;
+	text-align: center;
+	font-weight: 600;
+}
+
+.aboutsImg .global {
+	position: absolute;
+	width: 100vw;
+	color: white;
+	top: 17vw;
+	font-size: 1.3vw;
+	text-align: center;
+	font-family: PingFangSC-Regular;
+}
+
+
+/*导航栏*/
+
+.aboutsNav {
+	position: absolute;
+	top: 35vw;
+	width: 100vw;
+	height: 6vw;
+	border-bottom: 1px #E5E5E5 solid;
+}
+
+.aboutsNav ul {
+	width: 78vw;
+	height: 6vw;
+	margin: 0 auto;
+	padding-left: 1.4vw;
+}
+
+.aboutsNav ul li {
+	float: left;
+	width: 11vw;
+	height: 6.2vw;
+	font-size: 1vw;
+	margin-left: 0.2vw;
+	line-height: 6.2vw;
+	color: #808080;
+	text-align: center;
+	font-family: PingFangSC-Regular;
+	cursor: pointer;
+}
+
+
+/*发展历程*/
+
+.aboutProgress {
+	width: 100vw;
+	position: relative;
+	margin-left: 4vw;
+}
+
+.proCon {
+	position: relative;
+	width: 880px;
+	height: auto;
+	margin: 90px auto 0;
+}
+
+.proBox1 {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 93px;
+	overflow: hidden;
+}
+
+.proTitle1,
+.govTitle,
+.awdTitle {
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+}
+
+.proTitle1 img,
+.govTitle img,
+.awdTitle img {
+	position: absolute;
+	width: 22px;
+	left: 0;
+	top: 6px;
+}
+
+.proTitle1 span,
+.govTitle span,
+.awdTitle span {
+	margin-left: 40px;
+	margin-right: 20px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 700;
+	font-size: 24px;
+	color: #3e3a39;
+}
+
+.proContent1 {
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 60px;
+}
+
+.vertLine {
+	display: inline-block;
+	width: 4px;
+	background: #E6E6E6;
+	border-radius: 100px;
+	margin-left: 9px;
+}
+
+.lineOne {
+	height: 60px;
+}
+
+.lineTwo {
+	height: 116px;
+}
+
+.lineThree {
+	height: 303px;
+}
+
+.lineFour {
+	height: 1860px;
+}
+
+.proContent1 ul,
+.govContent ul,
+.awdContent ul {
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+
+.proContent1 ul li,
+.govContent ul li,
+.awdContent ul li {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #3e3a39;
+	line-height: 30px;
+}
+
+.proContent1 ul li span {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	margin-right: 30px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 700;
+	font-size: 16px;
+	color: #3e3a39;
+}
+
+.proBox2 {
+	position: relative;
+	width: 100%;
+	height: 123px;
+	overflow: hidden;
+}
+
+.proBox3 {
+	position: relative;
+	width: 100%;
+	height: 303px;
+	overflow: hidden;
+}
+
+.proBox4 {
+	position: relative;
+	width: 100%;
+	height: 1860px;
+	overflow: hidden;
+}
+
+.proBox5 {
+	position: relative;
+	width: 100%;
+	height: 290px;
+	overflow: hidden;
+}
+
+
+/*政府合作*/
+
+.goverment,
+.awardSituation {
+	width: 100vw;
+	position: relative;
+}
+
+.govCon,
+.awdCon {
+	position: relative;
+	margin-top: 5vw;
+	width: 60vw;
+	height: 80%;
+	left: 50%;
+	margin-left: -18vw;
+}
+
+.govBox1 .vertLine {
+	height: 90px;
+}
+
+.govBox2 .vertLine {
+	height: 60px;
+}
+
+.govBox3 .vertLine {
+	height: 120px;
+}
+
+.govBox4 .vertLine,
+.govBox5 .vertLine {
+	height: 150px;
+}
+
+.govBox6 .vertLine {
+	height: 240px;
+}
+
+.govBox7 .vertLine,
+.govBox8 .vertLine {
+	height: 60px;
+}
+
+.govBox,
+.awdBox {
+	position: relative;
+	width: 100%;
+}
+
+.govBox1 {
+	top: 0;
+	height: 123px;
+}
+
+.govBox1 .govContent {
+	position: relative;
+	width: 100%;
+	height: 90px;
+}
+
+.govBox2 .govContent {
+	position: relative;
+	width: 100%;
+	height: 60px;
+}
+
+.govBox3 .govContent {
+	position: relative;
+	width: 100%;
+	height: 90px;
+}
+
+.govBox3 {
+	height: 153px;
+}
+
+.govBox4 .govContent,
+.govBox5 .govContent {
+	position: relative;
+	width: 100%;
+	height: 150px;
+}
+
+.govBox4,
+.govBox5 {
+	height: 183px;
+}
+
+.govBox6 .govContent {
+	position: relative;
+	width: 100%;
+	height: 240px;
+}
+
+.govBox6 {
+	height: 273px;
+}
+
+.govBox7 .govContent,
+.govBox8 .govContent {
+	position: relative;
+	width: 100%;
+	height: 60px;
+}
+
+.govBox7,
+.govBox8 {
+	height: 93px;
+}
+
+.govBox9 {
+	height: 123px;
+	margin-bottom: 100px;
+}
+
+.govBox9 .govContent {
+	position: relative;
+	width: 100%;
+	height: 120px;
+}
+
+
+/*获奖情况*/
+
+.awdBox1 {
+	top: 0;
+	height: 93px;
+}
+
+.awdBox2,
+.awdBox3,
+.awdBox6 {
+	height: 153px;
+}
+
+.awdBox4 {
+	height: 243px;
+}
+
+.awdBox5 {
+	height: 93px;
+}
+
+.awdBox7 {
+	height: 183px;
+}
+
+.awdBox8 {
+	height: 213px;
+}
+
+.awdBox1 .vertLine {
+	height: 60px;
+}
+
+.awdBox2 .vertLine,
+.awdBox3 .vertLine {
+	height: 120px;
+}
+
+.awdBox4 .vertLine {
+	height: 210px;
+}
+
+.awdBox5 .vertLine {
+	height: 60px;
+}
+
+.awdBox6 .vertLine {
+	height: 120px;
+}
+
+.awdBox7 .vertLine {
+	height: 150px;
+}
+
+.awdBox1 .awdContent {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+}
+
+.awdBox2 .awdContent,
+.awdBox3 .awdContent {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+}
+
+.awdBox4 .awdContent {
+	position: absolute;
+	width: 100%;
+	height: 210px;
+}
+
+.awdBox5 .awdContent {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+}
+
+.awdBox6 .awdContent {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+}
+
+.awdBox7 .awdContent {
+	position: absolute;
+	width: 100%;
+	height: 150px;
+}
+
+.awdBox8 .awdContent {
+	position: absolute;
+	width: 100%;
+	height: 180px;
+}
+
+
+/*加入我们*/
+
+.aboutsJoin {
+	position: absolute;
+	top: 41vw;
+	width: 100%;
+	margin-top: 0.05vw;
+	background-color: #FFD900;
+	height: 40vw;
+}
+
+.aboutsJoin .joinOfo {
+	font-size: 2.3vw;
+	font-weight: 600;
+	text-align: center;
+	width: 100%;
+	margin-top: 6.2vw;
+	font-family: PingFangSC-Semibold;
+}
+
+.aboutsJoin .withUs {
+	font-size: 1.4vw;
+	text-align: center;
+	width: 100%;
+	margin-top: 1.5vw;
+	opacity: 0.7;
+}
+
+/*.aboutsJoin img{
+	display: block;
+	margin: 0 auto;
+	width: 70vw;
+	height: 33vw;
+	margin-top: 5vw;
+}*/
+
+.a {
+	text-underline: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.imgbtn {
+	height: 9vw;
+	top: 43vw;
+	width: 100vw;
+	position: absolute;
+}
+
+.aboutTab {
+	position: absolute;
+	top: 41vw;
+	width: 100%;
+	display: none;
+}
+
+.aboutShow {
+	display: block;
+}
+
+.aboutsJoin .imgbtn .button {
+	width: 16vw;
+	height: 9vw;
+	position: absolute;
+	bottom: -4.3vw;
+	left: 51%;
+	font-size: 16px;
+	line-height: 6vw;
+	text-align: center;
+	margin-left: -9vw;
+	background: url(../img/about/aboutJoin/btn_jobs_nor.png) no-repeat 0 0;
+	background-size: contain;
+	font-family: PingFangSC-Semibold;
+	color: #3e3a39;
+}
+
+.aboutsJoin .imgbtn .button:hover {
+	width: 16vw;
+	height: 9vw;
+	position: absolute;
+	bottom: -4.3vw;
+	left: 51%;
+	font-size: 16px;
+	line-height: 6vw;
+	text-align: center;
+	margin-left: -9vw;
+	background: url(../img/about/aboutJoin/btn_jobs_prs.png) no-repeat 0 0;
+	background-size: contain;
+	font-family: PingFangSC-Semibold;
+	color: #3e3a39;
+}
+
+.aboutsJoin .imgbtn span {
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+	background: url(../img/about/aboutJoin/ic_jobs_arrows.svg) no-repeat 0 0;
+	background-size: contain;
+	vertical-align: middle;
+	margin-left: 6px;
+}
+
+.imgbtn a {
+	height: 9vw;
+	line-height: 9vw;
+	font-size: 2vw;
+	text-decoration: none;
+	margin: 0 auto;
+	display: block;
+}
+
+.aboutsJoin .pContent {
+	height: 10vw;
+	width: 100vw;
+	background-color: white;
+	position: absolute;
+	top: 56vw;
+}
+
+.aboutsJoin .pContent p {
+	text-align: center;
+	font-size: 1.15vw;
+}
+
+
+/*超大平台*/
+
+.aboutslarge {
+	height: 35vw;
+	width: 100vw;
+	background-color: #FBFBFB;
+	position: absolute;
+	top: 66vw;
+}
+
+.aboutslargeContent {
+	background-color: #FFD900;
+	width: 64vw;
+	height: 25vw;
+	margin: 0 auto;
+	margin-top: 6vw;
+	margin-left: 14vw;
+}
+
+.aboutslargeContent h3 {
+	position: absolute;
+	top: 12vw;
+	left: 23vw;
+}
+
+.aboutslargeContent .p1 {
+	position: absolute;
+	top: 14.5vw;
+	left: 23vw;
+	font-size: 1vw;
+}
+
+.aboutslargeContent .p2 {
+	position: absolute;
+	top: 15.9vw;
+	left: 23vw;
+	font-size: 1vw;
+}
+
+.aboutslargeRight {
+	float: right;
+}
+
+.aboutslargeRight img {
+	width: 40vw;
+	height: 25vw;
+	position: absolute;
+	top: -2vw;
+	left: 45vw;
+}
+
+
+/*超大成长*/
+
+.growth {
+	height: 33vw;
+	width: 100vw;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 101vw;
+}
+
+.growthLeft {
+	width: 64vw;
+	height: 27vw;
+	margin: 0 auto;
+	margin-top: 6vw;
+}
+
+.growthLeft img {
+	width: 65vw;
+	height: 24vw;
+	position: absolute;
+	top: 3vw;
+	left: 14vw;
+}
+
+.growthRight {
+	float: right;
+}
+
+.growthRight img {
+	margin-right: 12vw;
+	height: 22vw;
+	width: 44vw;
+	margin-top: 12vw;
+}
+
+.growthWord {
+	background-color: #FFFFFF;
+	width: 28vw;
+	height: 9vw;
+	position: absolute;
+	left: 20vw;
+	top: 26vw;
+}
+
+.growthWord h3 {
+	font-size: 1.5vw;
+	padding-bottom: 0.5vw;
+	padding-top: 2vw;
+	padding-left: 1.5vw;
+}
+
+.growthWord p {
+	padding-left: 1.5vw;
+	font-size: 0.99vw;
+}
+
+
+/*超多改变*/
+
+.change {
+	height: 33vw;
+	width: 100vw;
+	position: absolute;
+	top: 139vw;
+}
+
+.changeLeft img {
+	width: 36vw;
+	float: left;
+	height: 26vw;
+	position: absolute;
+	left: 14vw;
+}
+
+.changeRight {
+	background-color: #3D3D42;
+	width: 60vw;
+	height: 25vw;
+	margin: 0 auto;
+	margin-top: 2vw;
+	float: right;
+}
+
+.changeWord {
+	position: absolute;
+	top: 10vw;
+	right: 23.9vw;
+	height: 12vw;
+	width: 22vw;
+}
+
+.changeRight h3 {
+	font-size: 1.5vw;
+	padding-bottom: 0.5vw;
+	padding-top: 2vw;
+	padding-left: 1.5vw;
+	color: #F8F8F8;
+}
+
+.changeRight p {
+	padding-left: 1.5vw;
+	font-size: 0.79vw;
+	color: #F8F8F8;
+	text-align: justify;
+}
+
+
+/*薪资待遇*/
+
+.wages {
+	height: 25vw;
+	width: 100vw;
+	position: absolute;
+	top: 174vw;
+	background-color: #FFD900;
+}
+
+.wagesWord {
+	width: 28vw;
+	height: 23vw;
+	/*background-color: #CCCCCC;*/
+	position: absolute;
+	left: 9vw;
+	top: 5.6vw;
+}
+
+.wagesWord h3 {
+	margin-left: 5vw;
+	margin-top: 2vw;
+}
+
+.wagesWord p {
+	margin-left: 5vw;
+	font-size: 0.99vw;
+	margin-top: 0.9vw;
+}
+
+.wagesImg {
+	width: 35vw;
+	height: 24vw;
+	/*background-color: salmon;*/
+	position: absolute;
+	left: 40vw;
+	top: 3vw;
+}
+
+.wagesImg img {
+	height: 21vw;
+	width: 39vw;
+	margin-left: 5vw;
+}
+
+
+/*尾部*/
+
+.tail {
+	margin-top: 2600px;
+}
+
+
+.footer {
+	/*position: absolute;*/
+	width: 100vw;
+	height: 335px;
+	margin-bottom: 0;
+}
+
+.footer .mark {
+	position: relative;
+	background-color: #3D3D42;
+	width: 100vw;
+	height: 243px;
+}
+
+.mark .mark-pic {
+	position: absolute;
+	width: 130px;
+	height: 46px;
+	left: 50%;
+	margin-left: -65px;
+	top: 40px;
+}
+
+.mark .sign {
+	position: absolute;
+	width: 82px;
+	height: 25px;
+	top: 116px;
+	left: 50%;
+	margin-left: -41px;
+}
+
+.sign .longtou {
+	width: 82px;
+	height: 30px;
+}
+
+.mark .port {
+	width: 94px;
+	height: 32px;
+	position: absolute;
+	left: 50%;
+	margin-left: -47px;
+	top: 171px;
+}
+
+.port .qr-none {
+	opacity: 0;
+	position: absolute;
+	bottom: 0;
+	left: 124px;
+}
+
+.port .wb {
+	width: 32px;
+	height: 32px;
+}
+
+.port .vx {
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	margin-left: 25px;
+}
+.wx {
+	width: 32px;
+	height: 32px;
+}
+
+.wx:hover+.qr-none {
+	opacity: 1;
+}
+
+.footer .location {
+	width: 100vw;
+	height: 92px;
+	background-color: #323337;
+	padding-top: 24px;
+}
+
+.location .text1 {
+	width: 100vw;
+	text-align: center;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #fff;
+}
+
+.location .text2 {
+	width: 100vw;
+	text-align: center;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #fff;
+}
+.about6 .footer {
+	/*position: absolute;*/
+	margin-top: 155vw;
+	width: 10vw;
+	height: 3vw;
+	margin-bottom: 0;
+}
+.about6 .footer .mark {
+	position: relative;
+	background-color: #3D3D42;
+	width: 100vw;
+	height: 243px;
+}
+.about6 .footer .location {
+	width: 100vw;
+	height: 92px;
+	background-color: #323337;
+	padding-top: 24px;
+}
+
+
+.about6.footer img{
+	width: 32px;
+	height: 32px;
+}
+
+.aboutsJoin .imgs img{
+	display: block;
+	margin: 0 auto;
+	width: 70vw;
+	height: 33vw;
+	margin-top: 5vw;
+}
+
+.aboutsJoin .aboutslarge img{
+	/*display: block;
+	margin: 0 auto;
+	width: 70vw;
+	height: 33vw;*/
+	margin-top: 5vw;
+}
+
+.aboutsJoin .growth img{
+	/*display: block;
+	margin: 0 auto;
+	width: 70vw;
+	height: 33vw;*/
+	/*margin-top: 7vw;*/
+}
+
+
+.aboutsJoin .change img{
+	/*display: block;
+	margin: 0 auto;
+	width: 70vw;
+	height: 33vw;*/
+	margin-top: 5vw;
+}
+.aboutsJoin .wages img{
+	/*display: block;
+	margin: 0 auto;
+	width: 70vw;
+	height: 33vw;*/
+	margin-top: 5vw;
+}

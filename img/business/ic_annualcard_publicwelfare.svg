@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="64px" viewBox="0 0 70 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_annualcard_publicwelfare</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="18.6196408%" y1="15.94951%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF7A7A" offset="0%"></stop>
+            <stop stop-color="#FF5555" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于-商业合作" transform="translate(-571.000000, -2655.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="企业年卡" transform="translate(0.000000, 2313.000000)">
+                <g id="Group-2" transform="translate(185.000000, 99.000000)">
+                    <g id="ic_annualcard_publicwelfare" transform="translate(386.000000, 231.000000)">
+                        <path d="M64.5504761,46.6026024 C68.0298252,42.8130419 70.1310519,37.5960391 69.9936498,31.8589712 C69.7360722,21.1080488 61.5034308,12.33803 51.3565936,12.0097501 C44.5957269,11.7910817 38.5892729,15.2680211 35.0000021,20.6759777 C31.5026061,15.4064557 25.7101165,11.9702568 19.1610268,12.0003271 C8.56096779,12.0488277 -0.08374316,21.3256087 0.000612156378,32.5547471 C0.0424480183,38.1234486 2.19166289,43.1601676 5.64489884,46.8142036 L32.1887962,74.7714795 C33.7441059,76.409553 36.2561717,76.409553 37.8114814,74.7712024 L64.1552229,47.0208162 C64.2674688,46.9055233 64.3783475,46.7887061 64.487859,46.6705032 L64.5518432,46.6030181 L64.5504761,46.6026024 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

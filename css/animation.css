@@ -1,0 +1,63 @@
+.tr-title{
+    -webkit-animation: fadeIn 1.2s linear .5s backwards;
+	-moz-animation: fadeIn 1.2s linear .5s backwards;
+	-ms-animation: fadeIn 1.2s linear .5s backwards;
+	animation: fadeIn 1.2s linear .5s backwards;
+}
+.tr-con{
+    -webkit-animation: fadeIn 1.2s linear 1.5s backwards;
+	-moz-animation: fadeIn 1.2s linear 1.5s backwards;
+	-ms-animation: fadeIn 1.2s linear 1.5s backwards;
+	animation: fadeIn 1.2s linear 1.5s backwards;
+}
+.tr-bot{
+    -webkit-animation: fadeIn 1.2s linear 2.5s backwards;
+	-moz-animation: fadeIn 1.2s linear 2.5s backwards;
+	-ms-animation: fadeIn 1.2s linear 2.5s backwards;
+	animation: fadeIn 1.2s linear 2.5s backwards;
+}
+header .text-bar .o-img1{
+    -webkit-animation: fadeIn 1.2s linear 4s backwards;
+	-moz-animation: fadeIn 1.2s linear 4s backwards;
+	-ms-animation: fadeIn 1.2s linear 4s backwards;
+	animation: fadeIn 1.2s linear 4s backwards;
+}
+header .text-bar .o-img2{
+    -webkit-animation: fadeIn 1.2s linear 4s backwards;
+	-moz-animation: fadeIn 1.2s linear 4s backwards;
+	-ms-animation: fadeIn 1.2s linear 4s backwards;
+	animation: fadeIn 1.2s linear 4s backwards;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}

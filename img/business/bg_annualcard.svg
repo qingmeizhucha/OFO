@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2040px" height="560px" viewBox="0 0 2040 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_annualcard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="企业年卡" fill="#FFE23E">
+            <rect id="Rectangle-8" transform="translate(347.099026, 568.099026) rotate(-45.000000) translate(-347.099026, -568.099026) " x="164.099026" y="526.099026" width="366" height="84" rx="42"></rect>
+            <rect id="Rectangle-8-Copy" transform="translate(829.078210, 56.078210) rotate(-45.000000) translate(-829.078210, -56.078210) " x="646.07821" y="31.0782105" width="366" height="50" rx="25"></rect>
+            <rect id="Rectangle-8-Copy-4" transform="translate(1310.211724, 534.211724) rotate(-45.000000) translate(-1310.211724, -534.211724) " x="1127.21172" y="521.750829" width="366" height="24.9217895" rx="12.4608948"></rect>
+            <circle id="Oval-6" cx="1654" cy="278" r="16"></circle>
+            <circle id="Oval-6-Copy" cx="1491.5" cy="543.5" r="47.5"></circle>
+            <circle id="Oval-6-Copy-4" cx="1302.5" cy="-0.5" r="58.5"></circle>
+            <circle id="Oval-6-Copy-3" cx="369.5" cy="17.5" r="98.5"></circle>
+            <circle id="Oval-6-Copy-2" cx="656.5" cy="229.065363" r="25.5"></circle>
+            <rect id="Rectangle-8-Copy-5" transform="translate(1836.849549, 99.104469) rotate(-45.000000) translate(-1836.849549, -99.104469) " x="1633.34955" y="66.6435739" width="407" height="64.9217895" rx="32.4608948"></rect>
+            <rect id="Rectangle-8-Copy-3" transform="translate(1618.333910, 24.333910) rotate(-45.000000) translate(-1618.333910, -24.333910) " x="1397.03559" y="-29.197421" width="442.59664" height="107.062662" rx="53.5313312"></rect>
+            <rect id="Rectangle-8-Copy-2" transform="translate(335.078210, 409.078210) rotate(-45.000000) translate(-335.078210, -409.078210) " x="152.07821" y="384.07821" width="366" height="50" rx="25"></rect>
+        </g>
+    </g>
+</svg>

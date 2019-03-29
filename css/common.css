@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: PingFangSC-Regular, myfont, Helvetica Neue, Helvetica, Hiragino Sans GB, STHeitiSC-Light, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, Arial, sans-serif;
+}
+
+
+/*样式重置reset*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+dl,
+dd,
+ul,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+	margin: 0;
+	padding: 0;
+}
+
+em {
+	font-style: normal;
+	/*斜体变正*/
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+input,
+textarea {
+	outline: none;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}

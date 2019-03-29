@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>arrows</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-712.000000, -744.000000)" fill="#FFFFFF">
+            <g id="1">
+                <g id="Group-6" transform="translate(692.000000, 737.000000)">
+                    <path d="M27.5,25.2356252 L27.5,7.5 C27.5,7.22385763 27.7238576,7 28,7 C28.2761424,7 28.5,7.22385763 28.5,7.5 L28.5,25.2431266 L35.1388765,18.158122 C35.3276915,17.9566188 35.6441068,17.9463329 35.84561,18.1351479 C36.0471132,18.3239628 36.057399,18.6403782 35.8685841,18.8418813 L28.3685841,26.8458764 C28.1710659,27.0566676 27.8365318,27.0567091 27.6389613,26.8459668 L20.1352326,18.8419718 C19.9463677,18.6405155 19.9565751,18.3240976 20.1580315,18.1352327 C20.3594878,17.9463678 20.6759057,17.9565751 20.8647706,18.1580315 L27.5,25.2356252 Z" id="arrows"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

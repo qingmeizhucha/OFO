@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>ofo</title>
+		<link href="img/favicon.ico" rel="shortcut icon" />
+		<link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+		<link href="css/common.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/abouts.css" />
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".ofoBlack").on("click", function() {
+					window.location.href = 'main.html';
+					return false;
+				});
+				$(".li").on("click", function() {
+					$(this).css("background-color", "#ffd900");
+					$(this).css("color", "#000000")
+					$(this).siblings().css("background-color", "")
+					$(this).siblings().css("color", "");
+					var num = $(this).index() + 1;
+					$(".about" + num + "").addClass("aboutShow").siblings().removeClass("aboutShow");
+				});
+				$("#1").on("click", function() {
+					window.location.href = 'main.html';
+					return false;
+				});
+				$("#3").on("click", function() {
+					window.location.href = 'business.html';
+					return false;
+				});
+
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<div class="app">
+			<div class="header">
+				<img src="img/homePage/logo_black.svg" class="ofoBlack" />
+				<div class="navDiv">
+					<li id="1" class="unactive">首页</li>
+					<li>关于</li>
+					<li id="3" class="unactive">商业合作</li>
+				</div>
+				<div class="line"></div>
+			</div>
+			<div class="aboutsImg">
+				<img src="img/about.png" />
+				<p class="us">关于我们</p>
+				<p class="global">ofo小黄车，全球领先的无桩共享单车平台</p>
+			</div>
+			<div class="aboutsNav" id="aboutsNav">
+				<ul id="ul">
+					<li class="li" style="margin-left: 3vw;background-color:#ffd900;color:#000;">关于ofo小黄车</li>
+					<li class="li">发展历程</li>
+					<li class="li">政府合作</li>
+					<li class="li">合作伙伴</li>
+					<li class="li">获奖情况</li>
+					<li class="li">加入我们</li>
+				</ul>
+			</div>
+			<!--关于ofo小黄车-->
+			<div class="aboutTab con aboutShow about1">
+				<div class="textpage1">
+					<div class="bg"></div>
+					<div class="text">
+						<p class="font-blod adboutsub adboutsub1">
+							<span>ofo 小黄车</span></p>
+						<p>
+							ofo 小黄车是全球领先的无桩共享单车出行平台。用户只需在ofo官方app、支付宝小程序、微信服务号和微信小程序输入车牌号或扫码，即可解锁用车，随取随用，随时随地。
+						</p>
+						<p>作为全球共享单车的领骑者，自2015年6月启动以来，ofo已在全球连接了超过1000万辆共享单车，日订单超3200万，为全球20个国家250座城市2亿用户提供了超40亿次高效便捷、绿色低碳的出行服务，共计减少碳排放超216万吨，相当于为社会节约了61515万升汽油、减少了103.5万吨PM2.5排放。ofo也已成为全球领先的共享单车平台。</p>
+						<p>ofo也被国外青年和央视评为中国的“新四大发明”。作为中国“新四大发明”代表，ofo小黄车正在扮演着连接中外文化的角色，以科技驱动的方式，抹平了技术传递、经济差异、文化差异的壁垒，助推世界大国蜕变成世界强国的过程</p>
+						<p>2017年7月6日，ofo宣布完成超过7亿美元E轮融资。该轮融资由阿里巴巴、弘毅投资和中信产业基金联合领投，滴滴出行和DST持续跟投。</p>
+						<p>
+							8月17日，ofo小黄车进驻美国西雅图，并成功获得美国当地主管部门首次给中国共享单车企业发放运营许可，成为第一家在美国城市中正式运营的中国共享单车企业。
+						</p>
+						<p>
+							8 月21日，ofo小黄车宣布正式进入英国牛津，成为首家获得Bikeplus英国共享单车管理协会认证的无桩共享单车企业。
+						</p>
+						<p>
+							ofo小黄车与中国电信和华为共同研发的NB-IoT（Narrow Band Internet of Things，窄带物联网）“物联网智能锁”开始正式应用到ofo小黄车上。这是全球首款“物联网智能锁”，也是NB-IoT物联网技术在移动场景的首次商用。
+						</p>
+						<p>
+							8月22日，ofo小黄车宣布支持NFC近场支付功能的全新智能锁已完成研发开始量产，并计划于10月起逐步投向市场。这是全球首款支持NFC近场支付功能的智能锁，用户可以通过支持该功能的智能硬件“秒开”小黄车。
+						</p>
+						<p>
+							9月26日，ofo发布更好骑的共享单车“ofo 小黄蜂”，行业首次采用跑鞋胎。另外，全球领先的共享出行大数据平台——ofo“奇点”大数据系统也首次公开亮相。
+						</p>
+						<p>
+							10月20日，共享单车的领骑者ofo小黄车最新宣布日订单突破3200万。相比去年同期，ofo日订单量增长远超31倍，也是共享单车行业增速极快的平台。
+						</p>
+						<p>
+							12月7日，ofo小黄车宣布入驻法国首都巴黎，这也是ofo进驻的全球第20个国家。目前，ofo已经在海外超50座城市开展运营，海外已投放超过10万辆单车，累计提供超过1000万次骑行服务。
+						</p>
+						<p>
+							2018年1月17日，ofo小黄车正式开放共享“奇点城市慢行交通大数据平台”，向各地政府开放共享实时车辆数据，协同政府完成共享单车行业车辆的精细化运营管理，树立了行业首个协同政府管理车辆的大数据平台标准。“奇点城市慢行交通大数据平台”可实现车辆的实时监管、车辆淤积的自动管控、智慧慢行交通系统的大数据决策支持等，未来将接入更多共享单车平台车辆数据，打造全行业车辆的精细化运营管理大数据平台。ofo奇点平台处理数据历史高峰近2000万每秒，每日会产生40TB的数据。
+						</p>
+						<p>
+							2018年3月13日，ofo小黄车完成E2-1轮融资8.66亿美元。本轮融资由阿里巴巴领投，灏峰集团、天合资本、蚂蚁金服与君理资本共同跟投。这是共享单车行业由规模化增长转入精细化运营阶段获得的首次融资，再次创下共享单车行业单笔最高融资纪录。
+						</p>
+						<p>
+							ofo 的愿景是，“让世界没有陌生的角落”。在未来ofo希望不生产自行车，只连接自行车，让人们在全世界的每一个角落都可以通过 ofo 解锁自行车，满足短途代步的需求。
+						</p>
+						<p>
+							ofo 同样以开放平台和共享精神，欢迎用户共享自己的单车加入 ofo，以共享经济的互联网创新模式调动城市单车存量市场，提高自行车使用效率，为城市节约更多空间。ofo倡导文明用车，通过技术手段引导用户规范使用ofo共享单车，与市民和政府协同优化共享单车出行解决方案，让城市更美好。
+						</p>
+						<p class="font-blod adboutsub adboutsub3">
+							<span>无桩共享单车的全球独创性</span>
+						</p>
+						<p>
+							近年来，公共自行车已成为全球一些知名城市的名片，巴黎、杭州等城市均拥有闻名世界的公共自行车项目。传统的公共自行车均为有桩，占地面积大，无法实现随时随地用车还车，需要政府等投入大量资金运营。2010年，欧美一个名为social bicycle的公司提出了单车共享计划，但用户依旧需要找到路灯、停车桩等停放单车的立柱。
+						</p>
+						<p>
+							2015年，ofo在全球范围内首次提出了用无桩加共享的方式来进行自行车的共享，点石成金的“无桩”概念，与移动互联网和智能手机相结合，“停车桩”这一思维枷锁的打破，让共享自行车真正具备了随时随地的便利性，也让公共自行车这一概念重新焕发活力。
+						</p>
+						<p>
+							自行车出行+移动互联网技术，这种模式的提出提高了自行车共享和使用的效率，而单车共享的模式，让一辆自行车的使用效率从5分钟提升到76分钟，提高了16倍，一辆自行车可以服务的人从1人变成了至少10人，提高了至少10倍。通过共享经济的方式，从所有权的让渡到使用权的共享，提高了自行车使用效率，减少了城市资源浪费，为城市减少拥堵，帮助城市节约更多空间，促进绿色低碳出行。
+						</p>
+						<p>
+							这便是无桩共享模式的独创性和意义所在。
+						</p>
+						<p class="font-blod adboutsub adboutsub2">
+							<span>市场份额</span>
+						</p>
+						<p>
+							目前，ofo在各大平台的下载量、用户量、用户增速、单车数量、日订单量、每辆车日均使用次数等各项指标均占据市场领先位置。
+						</p>
+						<p class="font-blod adboutsub adboutsub2">
+							<span>发展策略</span>
+						</p>
+						<p>
+							ofo小黄车是行业领先的共享单车平台，坚持共享经济的商业模式，通过平台路线，连接全球各个自行车生产商和用户共享的自行车，带动国内的自行车行业企业共同发展。
+						</p>
+						<p>
+							ofo在全球各个城市陆续开启运营，成为中国创业初期即向海外输出商业模式的互联网公司之一，成为中国企业出海的新时期代表之一，希望未来可以为全球20亿人提供共享出行服务。
+						</p>
+					</div>
+				</div>
+				<div class="wrap-market">
+					<div class="bottom">
+						<div class="right"></div>
+						<div class="left"></div>
+						<div class="text">
+							<h2> 融资情况</h2>
+							<p>
+								<span class="con-left">2015年3月17日</span>
+								<span class="con-right">天使轮 数百万元</span>
+							</p>
+							<p>
+								<span class="con-left">2016年4月28日</span>
+								<span class="con-right">pre-A 900万元</span>
+							</p>
+							<p>
+								<span class="con-left">2016年9月2日</span>
+								<span class="con-right">A轮2500万元</span>
+							</p>
+							<p>
+								<span class="con-left">2016年9月2日</span>
+								<span class="con-right">B轮 数千万美元</span>
+							</p>
+							<p>
+								<span class="con-left">2016年9月26日</span>
+								<span class="con-right">B+轮 数千万美元</span>
+							</p>
+							<p>
+								<span class="con-left">2016年10月10日</span>
+								<span class="con-right">C轮 1.0亿美元</span>
+							</p>
+							<p>
+								<span class="con-left">2017年3月1日</span>
+								<span class="con-right">D轮 4.5亿美元</span>
+							</p>
+							<p>
+								<span class="con-left">2017年7月1日</span>
+								<span class="con-right">E轮 7亿美元</span>
+							</p>
+							<p>
+								<span class="con-left">2018年3月13日</span>
+								<span class="con-right">E2-1；轮 8.66亿美元</span>
+							</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="wrap-team">
+					<div class="center">
+						<h2 class="font-blod adboutsub2 adboutsub">
+							<span>创始团队</span>
+						</h2>
+					</div>
+					<div class="center center2">
+						<div class="bg-team-left"></div>
+						<div class="text-con">
+							<img src="img/about/aboutOfo/team5.png" />
+							<p>戴威，ofo小黄车创始人兼CEO。出于对自行车的热爱，2014年与4名合伙人薛鼎、张巳丁、于信、杨品杰共同创立ofo小黄车，全球首创“无桩单车共享”模式，致力于用“共享、信任、开放”的理念解决用户最后一公里出行难题。ofo以“让世界没有陌生的角落”为愿景，做影响世界的共享出行平台。</p>
+						</div>
+						<div class="bg-team-right">
+							<img src="img/about/aboutOfo/bg_about_team_element.svg" />
+						</div>
+					</div>
+				</div>
+				<!--尾部-->
+				<div class="footer">
+					<div class="mark">
+						<div class="mark-pic">
+							<img src="img/main/logo-slogan.svg" />
+						</div>
+						<div class="sign">
+							<a id="szfw_logo" href="https://credit.szfw.org/CX20170726035260000588.html" target="_blank">
+								<img src="img/main/longtou.png" alt="" class="longtou"></a>
+						</div>
+						<div class="port">
+							<span class="wb">
+							<a href="https://weibo.com/ofobike?is_hot=1">
+								<img class="wb" src="img/main/weibo.svg" />
+							</a>
+						</span>
+							<span class="vx">
+							<img class="wx" src="img/main/weixin.svg" />
+							<img src="img/main/mobile_weixin.png" alt="" class="qr-none">
+						</span>
+
+						</div>
+					</div>
+					<div class="location">
+						<p class="text1">
+							4000 507 507（7：00到21：00） 北京市海淀区北四环西路58号理想国际大厦11层
+						</p>
+						<p class="text2">
+							Copyright © 2017 ofo Inc. 保留所有权利。京公网安备 11010802022978号 | 公共事务邮箱 gr@ofo.so 商务合作邮箱 bdinchina@ofo.so
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!--发展历程-->
+			<div class="aboutTab about2 ">
+				<div class="textpage2 ">
+					<div class="box1 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg>
+							<span class="time ">2014年</span></div>
+						<div class="context1 "><span class="icon1 "></span>
+							<ul>
+								<li><span>3月26日</span>ofo正式成立</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box2 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2015年</span></div>
+						<div class="context1 "><span class="icon2 "></span>
+							<ul>
+								<li><span>3月17日</span>ofo完成天使轮融资</li>
+								<li><span>6月06日</span>ofo共享单车上线，全球首创“无桩单车共享”模式</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2016年</span></div>
+						<div class="context1 ">
+							<span class="icon3 "></span>
+							<ul>
+								<li><span>4月28日</span>ofo宣布完成pre-A轮融资</li>
+								<li><span>9月02日</span>ofo宣布完成A轮融资</li>
+								<li><span>9月02日</span>ofo宣布完成B轮融资</li>
+								<li><span>9月26日</span>ofo获滴滴出行战略投资</li>
+								<li><span>10月10日</span>ofo宣布完成C轮融资，进入北京上海开启试运营</li>
+								<li><span>11月17日</span>ofo宣布进入城市</li>
+								<li><span>12月16日</span>ofo宣布进入成都、厦门，日订单过150万</li>
+								<li><span>12月23日</span>ofo发布“海外战略”，宣布将进入美国、英国、新加坡</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box4 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年</span></div>
+						<div class="context1 ">
+							<span class="icon4 "></span>
+							<ul>
+								<li><span>1月11日</span>
+									<div>ofo发布“2017城市战略”覆盖全国33城市</div>
+								</li>
+								<li><span>1月16日</span>
+									<div>ofo推出第一代智能锁</div>
+								</li>
+								<li><span>2月22日</span>
+									<div>ofo与中国电信、华为达成合作，打造全球首款物联网共享单车</div>
+								</li>
+								<li><span>3月01日</span>
+									<div>ofo宣布4.5亿美元D轮融资</div>
+								</li>
+								<li><span>3月09日</span>
+									<div>ofo发布新一代共享单车ofo Curve</div>
+								</li>
+								<li><span>3月16日</span>
+									<div>ofo宣布上海信用免押金</div>
+								</li>
+								<li><span>3月21日</span>
+									<div>ofo宣布日订单破千万</div>
+								</li>
+								<li><span>3月21日</span>
+									<div>苹果CEO库克参观ofo小黄车</div>
+								</li>
+								<li><span>3月21日</span>
+									<div>ofo新加坡发布首款变速自行车</div>
+								</li>
+								<li><span>3月24日</span>
+									<div>ofo联合骑呗发布定制版共享单车</div>
+								</li>
+								<li><span>3月25日</span>
+									<div>ofo创始人兼CEO戴威出席博鳌亚洲论坛</div>
+								</li>
+								<li><span>4月06日</span>
+									<div>ofo与北斗导航达成战略合作</div>
+								</li>
+								<li><span>4月18日</span>
+									<div>ofo成“无现金联盟”成员，ofo小黄车押金又添杭州</div>
+								</li>
+								<li><span>4月19日</span>
+									<div>ofo与富士达战略合作</div>
+								</li>
+								<li><span>4月22日</span>
+									<div>ofo宣布获蚂蚁金服D+轮战略投资</div>
+								</li>
+								<li><span>4月26日</span>
+									<div>ofo联合国总部共同签署战略合作备忘录，宣布在全球范围内发起“一公里计划”</div>
+								</li>
+								<li><span>5月03日</span>
+									<div>ofo宣布正式进入第100座城市——拉萨，成为全球覆盖城市最多的共享单车出行平台</div>
+								</li>
+								<li><span>5月06日</span>
+									<div>ofo与凤凰达成战略合作</div>
+								</li>
+								<li><span>5月17日</span>
+									<div>ofo宣布品牌升级，更名“ofo小黄车”，宣布与UNDP“一公里计划”合作</div>
+								</li>
+								<li><span>5月20日</span>
+									<div>ofo小黄车发布“X计划”，宣布支持九天微星发射民用娱乐卫星，助力中国商业航天事业发展</div>
+								</li>
+								<li><span>6月09日</span>
+									<div>ofo小黄车推出公主车</div>
+								</li>
+								<li><span>6月20日</span>
+									<div>ofo宣布全球首款NB-IoT物联网智能锁启动商用</div>
+								</li>
+								<li><span>6月28日</span>
+									<div>ofo创始人兼CEO戴威出席夏季达沃斯论坛</div>
+								</li>
+								<li><span>6月30日</span>
+									<div>ofo宣布与小黄人合作</div>
+								</li>
+								<li><span>7月01日</span>
+									<div>ofo小黄车党委成立</div>
+								</li>
+								<li><span>7月02日</span>
+									<div>ofo推出大眼车</div>
+								</li>
+								<li><span>7月05日</span>
+									<div>深圳、厦门免押金</div>
+								</li>
+								<li><span>7月06日</span>
+									<div>ofo宣布E轮7亿美元融资，阿里巴巴、弘毅投资和中信产业基金联合领投，滴滴出行和DST跟投</div>
+								</li>
+								<li><span>7月14日</span>
+									<div>ofo、电信、华为宣布NB-IoT智能锁全面商用</div>
+								</li>
+								<li><span>7月30日</span>
+									<div>央视著名《对话》栏目以中国“新四大发明”为话题，邀请ofo小黄车创始人兼CEO戴威</div>
+								</li>
+								<li><span>7月31日</span>
+									<div>ofo进入泰国</div>
+								</li>
+								<li><span>8月02日</span>
+									<div>ofo携手蕾哈娜“克拉拉莱昂内尔基金会”共同发起全球奖学金项目，在马拉维启动单车捐赠活动，为失学女童提供教育资金。</div>
+								</li>
+								<li><span>8月03日</span>
+									<div>ofo进入马来西亚</div>
+								</li>
+								<li><span>8月07日</span>
+									<div>南昌、金华、威海三座城市开启信用免押金服务</div>
+								</li>
+								<li><span>8月09日</span>
+									<div>ofo宣布将进入日本</div>
+								</li>
+								<li><span>8月17日</span>
+									<div>ofo获得当地政府许可，进入西雅图</div>
+								</li>
+								<li><span>8月21日</span>
+									<div>ofo进入英国牛津</div>
+								</li>
+								<li><span>8月22日</span>
+									<div>ofo推出二八车，携手凤凰向经典致敬</div>
+								</li>
+								<li><span>8月27日</span>
+									<div>ofo小黄车进入奥地利维也纳</div>
+								</li>
+								<li><span>9月01日</span>
+									<div>ofo参与马来西亚马六甲州国庆庆典</div>
+								</li>
+								<li><span>9月04日</span>
+									<div>ofo进入伍斯特</div>
+								</li>
+								<li><span>9月06日</span>
+									<div>ofo宣布郑州、珠海、合肥、温州、绵阳、德阳6座城市开启支付宝芝麻信用免押金服务</div>
+								</li>
+								<li><span>9月22日</span>
+									<div>世界无车日，ofo正式登陆登陆布拉格、米兰、莫斯科、鹿特丹、格罗宁根，普吉岛，一天之内登陆4个国家，6个城市</div>
+								</li>
+								<li><span>9月26日</span>
+									<div>ofo 4.0召开发布会，发布新车、新锁、“奇点”大数据</div>
+								</li>
+								<li><span>9月30日</span>
+									<div>ofo宣布在武汉、石家庄、福州、长沙、银川、南宁、中山、佛山、乐山、宁波、芜湖11座城市开启信用免押金服务</div>
+								</li>
+								<li><span>10月10日</span>
+									<div>ofo进入美国首都华盛顿，加速布局北美市场</div>
+								</li>
+								<li><span>10月17日</span>
+									<div>ofo进入西班牙葡萄牙</div>
+								</li>
+								<li><span>10月20日</span>
+									<div>ofo宣布日订单破3200万</div>
+								</li>
+								<li><span>10月22日</span>
+									<div>ofo进入以色列</div>
+								</li>
+								<li><span>11月07日</span>
+									<div>ofo进入“天使之城”洛杉矶</div>
+								</li>
+								<li><span>11月07日</span>
+									<div>ofo进入迈阿密，北美市场扩张至十城</div>
+								</li>
+								<li><span>11月08日</span>
+									<div>ofo创始人兼CEO戴威出席APEC，表示未来希望为20亿人提供服务</div>
+								</li>
+								<li><span>11月20日</span>
+									<div>ofo宣布进入印度</div>
+								</li>
+								<li><span>11月24日</span>
+									<div>ofo联合信通院发布全球首个NB-IoT共享单车标准</div>
+								</li>
+								<li><span>11月28日</span>
+									<div>ofo宣布进入匈牙利</div>
+								</li>
+								<li><span>12月07日</span>
+									<div>ofo宣布进入第20国法国</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box5 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2018年</span></div>
+						<div class="context1 ">
+							<span class="icon5 "></span>
+							<ul>
+								<li><span>01月25日</span>
+									<div>ofo宣布进入韩国</div>
+								</li>
+								<li><span>03月13日</span>
+									<div>E2-1轮 8.66亿美元</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--尾部-->
+				<div class="footer">
+					<div class="mark">
+						<div class="mark-pic">
+							<img src="img/main/logo-slogan.svg" />
+						</div>
+						<div class="sign">
+							<a id="szfw_logo" href="https://credit.szfw.org/CX20170726035260000588.html" target="_blank">
+								<img src="img/main/longtou.png" alt="" class="longtou"></a>
+						</div>
+						<div class="port">
+							<span class="wb">
+							<a href="https://weibo.com/ofobike?is_hot=1">
+								<img class="wb" src="img/main/weibo.svg" />
+							</a>
+						</span>
+							<span class="vx">
+							<img class="wx" src="img/main/weixin.svg" />
+							<img src="img/main/mobile_weixin.png" alt="" class="qr-none">
+						</span>
+
+						</div>
+					</div>
+					<div class="location">
+						<p class="text1">
+							4000 507 507（7：00到21：00） 北京市海淀区北四环西路58号理想国际大厦11层
+						</p>
+						<p class="text2">
+							Copyright © 2017 ofo Inc. 保留所有权利。京公网安备 11010802022978号 | 公共事务邮箱 gr@ofo.so 商务合作邮箱 bdinchina@ofo.so
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--政府合作-->
+			<div class="aboutTab about3 ">
+				<div class="textpage3 ">
+					<div class="box1 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年1月</span></div>
+						<div class="context1 ">
+							<span class="icon "></span>
+							<ul>
+								<li>ofo与重庆沙坪坝政府达成战略合作</li>
+								<li>ofo加入南京绿色出行志愿者联盟</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box2 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年2月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo与北京市交管局达成合作</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年4月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo联合国总部共同签署战略合作备忘录，宣布在全球范围内发起“一公里计划”</li>
+								<li>ofo与宁夏银川市政府达成合作</li>
+								<li>ofo与福建省漳州市经济开发区达成合作</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box4 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年5月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo与四川省节能协会达成合作</li>
+								<li>ofo四川省成都市公安局交通管理局达成合作</li>
+								<li>ofo与江西省南昌市安义县政府达成合作</li>
+								<li>ofo与江西省南昌市高新区管委会城市管理与环保局达成合作</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box5 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年6月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo与山东省德州市庆云县政府达成合作</li>
+								<li>ofo与四川省机关事务管理局</li>
+								<li>ofo与四川省苍溪县达成合作</li>
+								<li>ofo与内蒙古乌海市商务局达成合作</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box6 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年7月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo与石家庄共创文明城市</li>
+								<li>ofo与山西省忻州市城市汽车客运管理处达成合作</li>
+								<li>ofo与浙江省杭州市综合交通信息中心达成合作</li>
+								<li>ofo与河南省清丰县政府达成合作</li>
+								<li>ofo与新疆克拉玛依市克拉玛依区政府达成合作</li>
+								<li>ofo与甘肃省兰州市兰州新区管理委员会达成合作</li>
+								<li>ofo与光华管理学院成立北大光华-ofo小黄车共享经济研究中心</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box7 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年8月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo与首都精神文明办签署战略合作协议</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box8 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年9月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo与宁夏银川市科技局达成合作</li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box9 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年11月</span></div>
+						<div class="context1 ">
+							<ul>
+								<li>ofo与山东省泰安市城市管理局达成合作</li>
+								<li>ofo与住建部干部学院达成战略合作</li>
+								<li>ofo与北京海淀区签署战略合作协议</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--尾部-->
+				<div class="footer">
+					<div class="mark">
+						<div class="mark-pic">
+							<img src="img/main/logo-slogan.svg" />
+						</div>
+						<div class="sign">
+							<a id="szfw_logo" href="https://credit.szfw.org/CX20170726035260000588.html" target="_blank">
+								<img src="img/main/longtou.png" alt="" class="longtou"></a>
+						</div>
+						<div class="port">
+							<span class="wb">
+							<a href="https://weibo.com/ofobike?is_hot=1">
+								<img class="wb" src="img/main/weibo.svg" />
+							</a>
+						</span>
+							<span class="vx">
+							<img class="wx" src="img/main/weixin.svg" />
+							<img src="img/main/mobile_weixin.png" alt="" class="qr-none">
+						</span>
+
+						</div>
+					</div>
+					<div class="location">
+						<p class="text1">
+							4000 507 507（7：00到21：00） 北京市海淀区北四环西路58号理想国际大厦11层
+						</p>
+						<p class="text2">
+							Copyright © 2017 ofo Inc. 保留所有权利。京公网安备 11010802022978号 | 公共事务邮箱 gr@ofo.so 商务合作邮箱 bdinchina@ofo.so
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--合作伙伴-->
+			<div class="aboutTab about4 ">
+				<div class="textpage4 ">
+					<img src="img/logo.png ">
+				</div>
+				<div class="title ">
+					<span class="icon1 "></span>
+					<p class="text ">欢迎合作伙伴与我们一起用科技重新定义共享</p>
+					<span class="icon2 "></span>
+				</div>
+				<!--尾部-->
+				<div class="footer">
+					<div class="mark">
+						<div class="mark-pic">
+							<img src="img/main/logo-slogan.svg" />
+						</div>
+						<div class="sign">
+							<a id="szfw_logo" href="https://credit.szfw.org/CX20170726035260000588.html" target="_blank">
+								<img src="img/main/longtou.png" alt="" class="longtou"></a>
+						</div>
+						<div class="port">
+							<span class="wb">
+							<a href="https://weibo.com/ofobike?is_hot=1">
+								<img class="wb" src="img/main/weibo.svg" />
+							</a>
+						</span>
+							<span class="vx">
+							<img class="wx" src="img/main/weixin.svg" />
+							<img src="img/main/mobile_weixin.png" alt="" class="qr-none">
+						</span>
+
+						</div>
+					</div>
+					<div class="location">
+						<p class="text1">
+							4000 507 507（7：00到21：00） 北京市海淀区北四环西路58号理想国际大厦11层
+						</p>
+						<p class="text2">
+							Copyright © 2017 ofo Inc. 保留所有权利。京公网安备 11010802022978号 | 公共事务邮箱 gr@ofo.so 商务合作邮箱 bdinchina@ofo.so
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--获奖情况-->
+			<div class="aboutTab about5 ">
+				<div class="textpage5 ">
+					<div class="box1 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年2月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo获得「中关村独角兽企业证书」</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box2 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年5月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo获得「2017北京国际服务贸易交易会模式创新服务示范案例」</li>
+								<li>ofo创始人兼CEO戴威荣获「2016年中关村年度人物」</li>
+								<li>ofo获得「2017全球最具突破性品牌」</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box3 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年6月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo获得「信息服务业新业态创新企业30新」</li>
+								<li>ofo获得「2017中国国际软件博览会金提名奖」</li>
+								<li>ofo获得「2017中国自主创新绿色发展奖」</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box4 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年7月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo获得3.15诚信体系单位；诚信服务（准入）品牌</li>
+								<li>ofo创始人兼CEO戴威荣获「2017中国分享经济十大创新人物」</li>
+								<li>ofo获得「全国最佳商业模式创新奖」</li>
+								<li>ofo获得「全国共享单车服务公众满意最佳典范品牌」</li>
+								<li>ofo获得由国家信息中心颁发的「分享经济案例研究基地」称号</li>
+								<li>ofo获得浙江青年诚信行动战略合作伙伴</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box5 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年8月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo获得由新华社民族品牌传播工程办公室颁发的「中国民族品牌」</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box6 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年9月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo创始人戴威获得「“中国青年创业奖”创业新星奖」</li>
+								<li>ofo荣获由中国交通运输协会颁发的「中国交通运输协会共享出行分会副会长单位」</li>
+								<li>ofo创始人之一杨品杰担任千方杯·中国互联网+交通运输行业融合创业大赛创业导师</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box7 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年11月</span></div>
+						<div class="context1 "><span class="icon "></span>
+							<ul>
+								<li>ofo获得由中国国际高新技术成果交易会组委会颁发的「优秀产品奖」</li>
+								<li>ofo获得由中关村管委会颁发的「中关村创新创业青年英豪」奖项</li>
+								<li>ofo获得2017中国年度最佳雇主-最具智造精神雇主</li>
+								<li>ofo获得由深圳市消防安全委员会颁发的热心消防公益企业</li>
+							</ul>
+						</div>
+					</div>
+					<div class="box8 ">
+						<div class="textTitle ">
+							<svg width="22px " height="22px " viewBox="0 0 22 22 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+								<title>Group 5 Copy</title>
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1 " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " opacity="0.100000001 ">
+									<g id="关于-发展历程 " transform="translate(-270.000000, -788.000000) ">
+										<g id="Group-6 " transform="translate(270.000000, 664.000000) ">
+											<g id="Group-5-Copy " transform="translate(0.000000, 124.000000) ">
+												<circle id="Oval-4 " stroke="#000000 " stroke-width="3 " cx="11 " cy="11 " r="9.5 "></circle>
+												<circle id="Oval-5 " fill="#000000 " cx="11 " cy="11 " r="5 "></circle>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg> <span class="time ">2017年12月</span></div>
+						<div class="context1 ">
+							<ul>
+								<li>ofo获得36氪2017【新商业100年度榜】之创新力奖</li>
+								<li>ofo获得猎聘“2017年度风尚非凡雇主”</li>
+								<li>ofo获得2017中国人力资源——先锋HR团队奖</li>
+								<li>ofo获得2017市场信用建设优秀案例</li>
+								<li>ofo获得全球物联网峰会（2017·上海）“物联之星”荣誉称号</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--尾部-->
+				<div class="footer">
+					<div class="mark">
+						<div class="mark-pic">
+							<img src="img/main/logo-slogan.svg" />
+						</div>
+						<div class="sign">
+							<a id="szfw_logo" href="https://credit.szfw.org/CX20170726035260000588.html" target="_blank">
+								<img src="img/main/longtou.png" alt="" class="longtou"></a>
+						</div>
+						<div class="port">
+							<span class="wb">
+							<a href="https://weibo.com/ofobike?is_hot=1">
+								<img class="wb" src="img/main/weibo.svg" />
+							</a>
+						</span>
+							<span class="vx">
+							<img class="wx" src="img/main/weixin.svg" />
+							<img src="img/main/mobile_weixin.png" alt="" class="qr-none">
+						</span>
+
+						</div>
+					</div>
+					<div class="location">
+						<p class="text1">
+							4000 507 507（7：00到21：00） 北京市海淀区北四环西路58号理想国际大厦11层
+						</p>
+						<p class="text2">
+							Copyright © 2017 ofo Inc. 保留所有权利。京公网安备 11010802022978号 | 公共事务邮箱 gr@ofo.so 商务合作邮箱 bdinchina@ofo.so
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--加入我们-->
+			<div class="aboutTab aboutsJoin about6" id="joinus ">
+				<h2 class="joinOfo ">加入ofo</h2>
+				<p class="withUs ">和我们一起打造影响世界的共享出行平台！</p>
+				<div class="imgs ">
+					<img src="img/about/aboutJoin/img1.png " />
+				</div>
+				<!--查看职位-->
+				<div class="imgbtn ">
+					<a href="https://www.lagou.com/gongsi/j44749.html " class="button ">
+						查看职位<span class="arrowR "></span>
+					</a>
+				</div>
+
+				<div class="pContent ">
+					<p>作为全球共享单车的原创者和领骑者，ofo已在全球连接了超过1000万辆共享单车，日订单超3200万，</p>
+					<p>为全球2亿用户提供了超60亿次高效便捷、绿色低碳的出行服务。</p>
+					<p>ofo也已成为全球领先的共享单车平台。</p>
+				</div>
+				<!--超大平台-->
+				<div class="aboutslarge ">
+					<div class="aboutslargeContent ">
+						<h3>超大平台</h3>
+						<p class="p1 ">共享单车的原创者&领骑者，</p>
+						<p class="p2 ">立足中国、放眼全球的国际化平台。</p>
+					</div>
+					<div class="aboutslargeRight ">
+						<img src="img/about/aboutJoin/img2.png " />
+					</div>
+				</div>
+				<!--超快成长-->
+				<div class="growth ">
+					<div class="growthRight ">
+						<img src="img/about/aboutJoin/bg_jobs_element.svg " />
+					</div>
+					<div class="growthLeft ">
+						<img src="img/about/aboutJoin/img3.png " />
+					</div>
+					<div class="growthWord ">
+						<h3>超快成长</h3>
+						<p>扁平化管理，配备强有力的导师制度。群英荟萃，还有接轨 世界的工作体验。ofo学院，为你助力职场成长。你，会是其 中的佼佼者吗？
+						</p>
+					</div>
+				</div>
+				<!--超多改变-->
+				<div class="change ">
+					<div class="changeLeft ">
+						<img src="img/about/aboutJoin/img4.png " />
+					</div>
+					<div class="changeRight ">
+						<div class="changeWord ">
+							<h3>超多改变</h3>
+							<p>一些人等着被世界改变，而我们，已经在改变世界。从0到∞，我们改变一代人的出行方式，改变了一个时代。</p>
+						</div>
+					</div>
+				</div>
+				<!--超好待遇-->
+				<div class="wages ">
+					<div class="wagesWord ">
+						<h3>超好待遇</h3>
+						<p>弹性工作制；完善的薪酬福利制度，五险一金、商业保险、绩效奖金、免费私教、节日礼物应有尽有；现代化的办公环境，咖啡厅、游戏室、休眠仓、健身房，一应俱全。</p>
+					</div>
+					<div class="wagesImg ">
+						<img src="img/about/aboutJoin/img5.png " />
+					</div>
+				</div>
+				<!--尾部-->
+				<div class="footer">
+					<div class="mark">
+						<div class="mark-pic">
+							<img src="img/main/logo-slogan.svg" />
+						</div>
+						<div class="sign">
+							<a id="szfw_logo" href="https://credit.szfw.org/CX20170726035260000588.html" target="_blank">
+								<img src="img/main/longtou.png" alt="" class="longtou"></a>
+						</div>
+						<div class="port">
+							<span class="wb">
+							<a href="https://weibo.com/ofobike?is_hot=1">
+								<img class="wb" src="img/main/weibo.svg" />
+							</a>
+						</span>
+							<span class="vx">
+							<img class="wx" src="img/main/weixin.svg" />
+							<img src="img/main/mobile_weixin.png" alt="" class="qr-none">
+						</span>
+
+						</div>
+					</div>
+					<div class="location">
+						<p class="text1">
+							4000 507 507（7：00到21：00） 北京市海淀区北四环西路58号理想国际大厦11层
+						</p>
+						<p class="text2">
+							Copyright © 2017 ofo Inc. 保留所有权利。京公网安备 11010802022978号 | 公共事务邮箱 gr@ofo.so 商务合作邮箱 bdinchina@ofo.so
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+
+	</body>
+
+</html>

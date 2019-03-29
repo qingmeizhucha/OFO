@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="662px" height="372px" viewBox="0 0 662 372" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_user_portrait</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="60" cy="60" r="60"></circle>
+        <linearGradient x1="44.0940542%" y1="0%" x2="87.3231561%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FFE763" offset="0%"></stop>
+            <stop stop-color="#FCBE01" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9-Copy" transform="translate(-858.000000, -94.000000)">
+            <g id="ic_user_portrait" transform="translate(858.000000, 94.000000)">
+                <rect id="Rectangle-24" fill="#FFE75D" x="128" y="14" width="196" height="78" rx="39"></rect>
+                <rect id="Rectangle-24-Copy-4" fill="#FFE75D" x="139" y="294" width="240" height="78" rx="39"></rect>
+                <rect id="Rectangle-24-Copy-5" fill="#FFE75D" x="0" y="180" width="178" height="78" rx="39"></rect>
+                <rect id="Rectangle-24-Copy" fill="#FFE75D" x="397" y="0" width="160" height="78" rx="39"></rect>
+                <rect id="Rectangle-24-Copy-2" fill="#FFE75D" x="538" y="154" width="124" height="78" rx="39"></rect>
+                <rect id="Rectangle-24-Copy-3" fill="#FFE75D" x="436" y="280" width="164" height="78" rx="39"></rect>
+                <path d="M219,88 L219,125 C219,134.941125 227.058875,143 237,143 L352,143" id="Path-5" stroke="#FFE75D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M427,222 L427,259 C427,268.941125 435.058875,277 445,277 L496.926725,277 C506.86785,277 514.926725,285.058875 514.926725,295 L514.926725,310.260494" id="Path-5-Copy-2" stroke="#FFE75D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(470.963362, 266.130247) scale(-1, -1) translate(-470.963362, -266.130247) "></path>
+                <path d="M345,68 L345,125 C345,134.941125 353.058875,143 363,143 L478,143" id="Path-5-Copy" stroke="#FFE75D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(411.500000, 105.500000) scale(-1, 1) translate(-411.500000, -105.500000) "></path>
+                <path d="M427.898664,194.515589 L546.458729,194.515589" id="Path-6" stroke="#FFE75D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M336.792429,187.903167 L279.90642,187.903167 C274.383572,187.903167 269.90642,192.380319 269.90642,197.903167 L269.90642,209.306009 C269.90642,214.828856 265.429267,219.306009 259.90642,219.306009 L169.819449,219.306009" id="Path-7" stroke="#FFE75D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M345,230 L345,239 C345,250.045695 336.045695,259 325,259 L283,259 C271.954305,259 263,267.954305 263,279 L263,302" id="Path-8" stroke="#FFE75D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval-12" fill="#FFE75D" cx="286" cy="143" r="5"></circle>
+                <circle id="Oval-12-Copy-3" fill="#FFE75D" cx="231" cy="219" r="5"></circle>
+                <circle id="Oval-12-Copy-4" fill="#FFE75D" cx="296" cy="259" r="5"></circle>
+                <circle id="Oval-12-Copy" fill="#FFE75D" cx="478" cy="106" r="5"></circle>
+                <circle id="Oval-12-Copy-2" fill="#FFE75D" cx="488" cy="195" r="5"></circle>
+                <circle id="Oval-12-Copy-5" fill="#FFE75D" cx="471" cy="255" r="5"></circle>
+                <g id="Bitmap-Copy-5" transform="translate(322.000000, 126.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FCF9E6" xlink:href="#path-1"></use>
+                    <path d="M60,76 C48.4020203,76 39,66.5979797 39,55 C39,43.4020203 48.4020203,34 60,34 C71.5979797,34 81,43.4020203 81,55 C81,66.5979797 71.5979797,76 60,76 Z M60,171 C35.1471863,171 15,150.852814 15,126 C15,101.147186 35.1471863,81 60,81 C84.8528137,81 105,101.147186 105,126 C105,150.852814 84.8528137,171 60,171 Z" id="Combined-Shape" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                </g>
+                <text id="15-35岁-都市年轻人群" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#3E3A39">
+                    <tspan x="442.746" y="33">15-35岁</tspan>
+                    <tspan x="423" y="58">都市年轻人群</tspan>
+                </text>
+                <text id="对权益敏感，关注餐饮、-娱乐等周边生活福" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#3E3A39">
+                    <tspan x="154.006" y="327">  对权益敏感，关注餐饮、</tspan>
+                    <tspan x="178" y="352">娱乐等周边生活福利</tspan>
+                </text>
+                <text id="男性用户53%-女性用户47%" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#3E3A39">
+                    <tspan x="462.47" y="313">男性用户53%</tspan>
+                    <tspan x="462.947" y="338">女性用户47%</tspan>
+                </text>
+                <text id="生活在一二线城市-核心商圈" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#3E3A39">
+                    <tspan x="154" y="47">生活在一二线城市</tspan>
+                    <tspan x="190" y="72">核心商圈</tspan>
+                </text>
+                <text id="平均学历-大学本科" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#3E3A39">
+                    <tspan x="564" y="187">平均学历</tspan>
+                    <tspan x="564" y="212">大学本科</tspan>
+                </text>
+                <text id="互联网、金融、-房地产行业白领" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#3E3A39">
+                    <tspan x="26" y="213">互联网、金融、</tspan>
+                    <tspan x="26" y="238">房地产行业白领</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_contact_checkbox_sel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="36" height="36" rx="3"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="商业合作" transform="translate(-449.000000, -6710.000000)">
+            <g id="6" transform="translate(0.000000, 6315.000000)">
+                <g id="ic_contact_checkbox_sel" transform="translate(449.000000, 395.000000)">
+                    <g id="Rectangle-9-Copy-6">
+                        <use fill="#F7AF07" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#F7AF07" stroke-width="2" x="1" y="1" width="34" height="34" rx="3"></rect>
+                    </g>
+                    <polyline id="Path-3" stroke="#FFF7C9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="7 18 14 25 29 11"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

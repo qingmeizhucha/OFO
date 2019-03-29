@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/**
+ *
+ * @date    2017-12-26
+ */
+body, form, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, header, menu, footer, section, iframe, video, article, button {
+	margin: 0;
+	padding: 0; 
+}
+
+html, body {
+	width: 100%;
+	height: 100%; 
+}
+
+body {
+	min-width: 1140px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular, Microsoft Yahei, Avenir, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+	background: #ffffff;
+	color: #666;
+	position: relative; 
+}
+
+a {
+	outline: 0;
+	text-decoration: none; 
+}
+
+img {
+	display: block;
+	width: 100%;
+	border: 0; 
+}
+
+p {
+	word-break: break-all; 
+}
+
+ul, li {
+	list-style: none;
+}
+
+.fl{
+	position: relative;
+	float: left; 
+}
+
+.fr{
+	position: relative;
+	float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table; 
+}
+
+.clearfix:after {
+	clear: both; 
+}
+
+#main {
+	width: 100%;
+	min-width: 1140px;
+	margin: 0 auto; 
+}
+
+.col-1140{
+	width: 1140px;
+	margin: 0 auto;
+	position: relative; 
+}
+
+.col-970 {
+	width: 970px; 
+}
+
+.col-912 {
+	width: 912px; 
+}
+
+.col-800 {
+	width: 800px; 
+}
+
+.col-684 {
+	width: 684px; 
+}
+
+.f36{
+    font-size: 36px;
+}
+.f80{
+    font-size: 80px;
+}
+.f20{
+    font-size: 20px;
+}
+
+.mt10{
+	margin-top: 10px;
+}

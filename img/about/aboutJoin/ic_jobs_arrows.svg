@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_jobs_arrows</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于-加入我们" transform="translate(-763.000000, -1337.000000)">
+            <g id="Group-6" transform="translate(608.000000, 1312.000000)">
+                <g id="ic_jobs_arrows" transform="translate(155.000000, 27.000000)">
+                    <polyline id="Path-16" stroke="#3E3A39" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="12 17 20 8.5 12 0"></polyline>
+                    <rect id="Rectangle-5" fill="#3E3A39" x="0" y="7" width="21" height="3" rx="1.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

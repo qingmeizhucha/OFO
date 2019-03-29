@@ -1,0 +1,279 @@
+
+header{
+    width: 100%;
+    position: relative;
+    /* height: 810px; */
+    /* background: url("../images/homepage_headpic.png") no-repeat; */
+    /* background-position: top center; */
+    /* padding-top: 6px; */
+    /* box-sizing: border-box; */
+}
+header .top{
+    position: fixed;
+    top: 0;
+    /* left: 5%; */
+    width: 100%;
+    text-align: center;
+    height: 72px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    /* line-height: 72px; */
+    z-index: 5;
+    transition: background-color 1s;
+}
+header .top .menu {
+    position: absolute;
+    top: 0;
+    left: 36px;
+    height: 72px;
+    line-height: 72px;
+}
+header .menu li{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #ffffff;
+    opacity: .5;
+    float: left;
+    cursor: pointer;
+    margin-right: 30px;
+}
+header .top .menu li a {
+    color: #ffffff;
+    opacity: 1;
+}
+
+header .top-fixed .menu li a{
+    color: #000000;
+    opacity: 1;
+}
+
+header .top-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 72px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    background-color: #ffffff;
+    transition: background-color 1s;
+    z-index: 5;
+}
+
+header .top span{
+    display: inline-block;
+    cursor: pointer;
+	background: url("../img/bigdata/logo_white.svg") no-repeat;
+	width: 144px;
+    height: 30px;
+    margin-top: 21px;
+}
+header .top .top-fixed-img {
+    display: inline-block;
+    cursor: pointer;
+	background: url("../img/bigdata/logo_black.svg") no-repeat;
+	width: 144px;
+    height: 30px;
+    margin-top: 21px;
+}
+
+header .head-body{
+    width: 100%;
+    /* margin-top: 250px; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+header .text-bar{
+    width: 320px;
+    height: 210px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: -105px;
+    position: relative;
+}
+header .text-bar .text-body{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+header .text-bar .o-img1{
+    display: inline-block;
+    position: absolute;
+    top: -50px;
+    left: -120px;
+    z-index: 1;
+}
+header .text-bar .o-img2{
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: -50px;
+    z-index: 1;
+}
+section .left-wrapper, section .right-wrapper, section .pic-wrapper{
+    width: 100%;
+}
+section .left-wrapper{
+    margin-top: 50px;
+}
+section .left-wrapper .text-bar,
+section .right-wrapper .text-bar{
+    padding-left: 120px;
+    height: 400px;
+    padding-top: 140px;
+    box-sizing: border-box;
+}
+
+.pic-wrapper{
+    background: #F5F5F5;
+    color: #fff;
+}
+.pic-wrapper ul{
+    width: 1250px;
+    margin: 0 auto;
+}
+.pic-wrapper ul li{
+    float: left;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+.pic-wrapper ul li:nth-child(1){
+    background: url("../img/bigdata/pic_s_1@3x.png") no-repeat;
+    background-position: -350px 0;
+    background-size: auto 100%;
+}
+.pic-wrapper ul li:nth-child(2){
+    background: url("../img/bigdata/pic_s_2@3x.png") no-repeat;
+    background-position: -110px 0;
+    background-size: auto 100%;
+}
+.pic-wrapper ul li:nth-child(3){
+    background: url("../img/bigdata/pic_s_3@3x.png") no-repeat;
+    background-position: -275px 0;
+    background-size: auto 100%;
+}
+.pic-wrapper ul li:nth-child(4){
+    background: url("../img/bigdata/pic_s_4@3x.png") no-repeat;
+    background-position: -195px 0;
+    background-size: auto 100%;
+}
+.pic-wrapper ul li:nth-child(5){
+    background: url("../img/bigdata/pic_s_5@3x.png") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+.pic-wrapper ul li span{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+.pic-wrapper ul li:nth-child(1) span{
+    background: url("../img/bigdata/homepage_icon_1.svg") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin-bottom: 20px;
+}
+.pic-wrapper ul li:nth-child(2) span{
+    background: url("../img/bigdata/homepage_icon_2.svg") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin-bottom: 20px;
+}
+.pic-wrapper ul li:nth-child(3) span{
+    background: url("../img/bigdata/homepage_icon_3.svg") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin-bottom: 20px;
+}
+.pic-wrapper ul li:nth-child(4) span{
+    background: url("../img/bigdata/homepage_icon_4.svg") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin-bottom: 20px;
+}
+.pic-wrapper ul li:nth-child(5) span{
+    background: url("../img/bigdata/homepage_icon_5.svg") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin-bottom: 20px;
+}
+section article{
+    text-align: center;
+    padding-top: 60px;
+}
+section article h3{
+    margin-bottom: 36px;
+}
+section article p{
+    font-size: 12px;
+    color:#3E3A39;
+    line-height: 22px;
+}
+section article p.hint{
+    margin-top: 50px;
+    color: #ccc;
+}
+footer{
+    margin-top: 60px;
+    font-size: 12px;
+}
+footer article{
+    background: #323337;
+    color: #FFFFFF;
+    padding: 24px 0;
+    text-align: center;
+    line-height: 30px;
+}
+footer .icon-bar{
+    background: #3D3D42;
+    padding:40px 0;
+    text-align: center;
+}
+footer .icon-bar span{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+footer .icon-bar span.logo-slogan{
+    width: 131px;
+    height: 46px;
+    background: url("../img/main/logo-slogan.svg") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+footer .icon-bar span.bitmap{
+    width: 82px;
+    height: 25px;
+    background: url("../img/main/Bitmap@3x.png") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+footer .icon-bar .wrapper-a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+footer .icon-bar .weibo{
+    background: url("../img/main/weibo.svg") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin-right: 15px;
+}
+footer .icon-bar .weixin{
+    background: url("../img/main/weixin.svg") no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin-left: 15px;
+}
+footer .icon-bar .weixin .erweima{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    right: -210px;
+    display: none;
+}

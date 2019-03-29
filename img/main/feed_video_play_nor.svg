@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>feed_video_play_nor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-242.000000, -2796.000000)" fill="#FFFFFF">
+            <g id="Group-15-Copy" transform="translate(82.000000, 2736.000000)">
+                <g id="feed_video_play_nor" transform="translate(160.000000, 60.000000)">
+                    <path d="M40,80 C17.90861,80 0,62.09139 0,40 C0,17.90861 17.90861,0 40,0 C62.09139,0 80,17.90861 80,40 C80,62.09139 62.09139,80 40,80 Z M40,70 C56.5685425,70 70,56.5685425 70,40 C70,23.4314575 56.5685425,10 40,10 C23.4314575,10 10,23.4314575 10,40 C10,56.5685425 23.4314575,70 40,70 Z" id="Combined-Shape"></path>
+                    <path d="M54.3119663,42.0697907 L33.0656265,55.4471157 L33.0656265,55.4471157 C32.1309036,56.035645 30.8960636,55.7549996 30.3075343,54.8202766 C30.1066113,54.5011636 30,54.1317483 30,53.75465 L30,27 L30,27 C30,25.8954305 30.8954305,25 32,25 C32.3770983,25 32.7465136,25.1066113 33.0656265,25.3075343 L54.3119663,38.6848593 L54.3119663,38.6848593 C55.2466893,39.2733886 55.5273347,40.5082286 54.9388054,41.4429516 C54.7793796,41.6961572 54.5651719,41.9103649 54.3119663,42.0697907 Z" id="Triangle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>homepage_icon_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="大数据官网" transform="translate(-439.000000, -1755.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-12" transform="translate(0.000000, 1620.000000)">
+                <g id="homepage_icon_2" transform="translate(440.000000, 136.000000)">
+                    <ellipse id="Oval-9" stroke-dasharray="2,2" cx="29.8510638" cy="30" rx="29.8510638" ry="30"></ellipse>
+                    <g id="Group-9-Copy" transform="translate(15.000000, 15.000000)" stroke-linejoin="round">
+                        <polygon id="Rectangle-16" points="15 -9.09494702e-13 30 6.42857143 15 12.8571429 0 6.42857143"></polygon>
+                        <polygon id="Rectangle-17" points="0 6.42857143 15 12.8571429 15 31.0714286 0 24.6428571"></polygon>
+                        <path d="M3.1492373,14.206816 L10.45991,17.3399614" id="Rectangle-17-Copy-2" stroke-linecap="round"></path>
+                        <polygon id="Rectangle-17-Copy" transform="translate(22.500000, 18.750000) scale(-1, 1) translate(-22.500000, -18.750000) " points="15 6.42857143 30 12.8571429 30 31.0714286 15 24.6428571"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

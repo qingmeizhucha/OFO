@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_platform_city</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <linearGradient x1="0%" y1="24.4520617%" x2="111.767746%" y2="95.7254708%" id="linearGradient-3">
+            <stop stop-color="#C0C5CC" offset="0%"></stop>
+            <stop stop-color="#949CA4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="44.0940542%" y1="0%" x2="87.3231561%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#FFE763" offset="0%"></stop>
+            <stop stop-color="#FCBE01" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="73.9358038%" y2="-9.24075544%" id="linearGradient-5">
+            <stop stop-color="#FFD900" offset="0%"></stop>
+            <stop stop-color="#FFBC00" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.9088366%" y1="14.2826255%" x2="100%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FFD900" offset="0%"></stop>
+            <stop stop-color="#FFBC00" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="7" y="57" width="40" height="63" rx="2"></rect>
+        <filter x="-8.8%" y="-5.6%" width="127.5%" height="117.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0549705616 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于-商业合作" transform="translate(-675.000000, -333.000000)">
+            <g id="平台规模" transform="translate(0.000000, 73.000000)">
+                <g id="Group-11" transform="translate(675.000000, 260.000000)">
+                    <g id="ic_platform_city">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FCF9E6" xlink:href="#path-1"></use>
+                        <rect id="Rectangle-16" fill="url(#linearGradient-3)" opacity="0.800000012" mask="url(#mask-2)" x="48" y="18" width="3" height="18" rx="1.5"></rect>
+                        <rect id="Rectangle-2-Copy-2" fill="url(#linearGradient-4)" mask="url(#mask-2)" x="47" y="57" width="40" height="63" rx="2"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#F3A503" mask="url(#mask-2)" x="73" y="67" width="8" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-17-Copy-4" fill="#F3A503" mask="url(#mask-2)" x="57" y="73" width="25" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-17-Copy-5" fill="#F3A503" mask="url(#mask-2)" x="57" y="80" width="25" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-2-Copy-3" fill="url(#linearGradient-5)" mask="url(#mask-2)" x="75" y="72" width="25" height="40" rx="2"></rect>
+                        <circle id="Oval-3" fill="url(#linearGradient-3)" mask="url(#mask-2)" cx="49.5" cy="39.5" r="11.5"></circle>
+                        <rect id="Rectangle-2" fill="url(#linearGradient-6)" mask="url(#mask-2)" x="33" y="40" width="33" height="63" rx="2"></rect>
+                        <circle id="Oval-4" fill="#F4A604" mask="url(#mask-2)" cx="39.5" cy="51.5" r="1.5"></circle>
+                        <circle id="Oval-4-Copy-4" fill="#F4A604" mask="url(#mask-2)" cx="61.5" cy="79.5" r="1.5"></circle>
+                        <circle id="Oval-4-Copy-6" fill="#F4A604" mask="url(#mask-2)" cx="61.5" cy="93.5" r="1.5"></circle>
+                        <circle id="Oval-4-Copy-7" fill="#F4A604" mask="url(#mask-2)" cx="81.5" cy="81.5" r="1.5"></circle>
+                        <circle id="Oval-4-Copy-8" fill="#F4A604" mask="url(#mask-2)" cx="81.5" cy="88.5" r="1.5"></circle>
+                        <circle id="Oval-4-Copy-2" fill="#F4A604" mask="url(#mask-2)" cx="46.5" cy="51.5" r="1.5"></circle>
+                        <circle id="Oval-4-Copy-5" fill="#F4A604" mask="url(#mask-2)" cx="61.5" cy="73.5" r="1.5"></circle>
+                        <g id="Rectangle-2-Copy" mask="url(#mask-2)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                        <rect id="Rectangle-17" fill="#F3A503" mask="url(#mask-2)" x="12" y="68" width="25" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#F3A503" mask="url(#mask-2)" x="12" y="75" width="25" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#F3A503" mask="url(#mask-2)" x="12" y="82" width="25" height="3" rx="1.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="68px" viewBox="0 0 70 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_welfare</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE763" offset="0%"></stop>
+            <stop stop-color="#FCBE01" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="18.6196408%" y1="15.94951%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FF7A7A" offset="0%"></stop>
+            <stop stop-color="#FF5555" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于-商业合作" transform="translate(-571.000000, -2467.000000)">
+            <g id="企业年卡" transform="translate(0.000000, 2313.000000)">
+                <g id="Group-2" transform="translate(185.000000, 99.000000)">
+                    <g id="ic_welfare" transform="translate(386.000000, 45.000000)">
+                        <path d="M5,40 L65,40 L65,75.9971408 C65,77.1032894 64.1052696,78 63.0036926,78 L6.99630737,78 C5.89377725,78 5,77.0981492 5,75.9971408 L5,40 Z" id="body39" fill="url(#linearGradient-1)"></path>
+                        <path d="M0,31.999615 C0,30.8952581 0.897816161,30 2.00079916,30 L67.9992008,30 C69.1042117,30 70,30.8874333 70,31.999615 L70,38.000385 C70,39.1047419 69.1021838,40 67.9992008,40 L2.00079916,40 C0.895788296,40 0,39.1125667 0,38.000385 L0,31.999615 Z" id="cover1" fill="url(#linearGradient-2)"></path>
+                        <path d="M35,20.3030303 C35,14.6126667 39.477,10 45,10 C50.523,10 55,14.6126667 55,20.3030303 C55,25.9933939 50.523,30.6060606 45,30.6060606 L40,30.6060606 L40,78 L30,78 L30,30.6060606 L25,30.6060606 C19.477,30.6060606 15,25.9933939 15,20.3030303 C15,14.6126667 19.477,10 25,10 C29.84,10 33.877,13.5432121 34.797,18.2269697 L35,20.3030303 L35,20.3030303 Z M25,16.1818182 C27.209,16.1818182 29,18.0270909 29,20.3030303 L29,24.4242424 L25,24.4242424 C22.791,24.4242424 21,22.5789697 21,20.3030303 C21,18.0270909 22.791,16.1818182 25,16.1818182 L25,16.1818182 Z M45,16.1818182 C42.791,16.1818182 41,18.0270909 41,20.3030303 L41,24.4242424 L45,24.4242424 C47.209,24.4242424 49,22.5789697 49,20.3030303 C49,18.0270909 47.209,16.1818182 45,16.1818182 L45,16.1818182 Z" id="Rectangle-12-copy" fill="url(#linearGradient-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

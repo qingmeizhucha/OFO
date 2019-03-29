@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_platform_user</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <linearGradient x1="-10.5547673%" y1="29.3498791%" x2="124.487981%" y2="69.4131083%" id="linearGradient-3">
+            <stop stop-color="#FFDED0" offset="0%"></stop>
+            <stop stop-color="#F9C5AF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M37,23 L37,49.982117 C37,51.0819767 37.8980289,51.984755 39.0085757,51.9985632 L44.5693559,52.0677047 L44.5693559,70 L57.827876,70 L57.827876,44.6376028 L62,25.0235813 L37,23 Z" id="path-4"></path>
+        <linearGradient x1="44.0940542%" y1="0%" x2="87.3231561%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#FFE763" offset="0%"></stop>
+            <stop stop-color="#FCBE01" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="30.1853232%" y1="-7.13300382%" x2="94.685767%" y2="73.702342%" id="linearGradient-6">
+            <stop stop-color="#6F6F6F" offset="0%"></stop>
+            <stop stop-color="#4D4D4D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于-商业合作" transform="translate(-349.000000, -333.000000)">
+            <g id="平台规模" transform="translate(0.000000, 73.000000)">
+                <g id="Group-10" transform="translate(326.000000, 260.000000)">
+                    <g id="ic_platform_user" transform="translate(23.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FCF9E6" xlink:href="#path-1"></use>
+                        <g id="Path-25" mask="url(#mask-2)">
+                            <use fill="#F6D1C1" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                        </g>
+                        <path d="M25.7554665,67 L74.1426107,67 C74.1426107,67 90.629952,69.371532 90.629952,83.770556 C90.629952,94.3118321 93,112.440237 93,127.656216 C93,142.872194 91.2339049,173.080326 91.2339049,190.013331 L83.6665713,195 C83.6665713,177.756104 83.9856085,154.953887 82.4309826,135.266913 C80.8763566,115.579939 77.5232933,97.915821 77.5232933,97.915821 L74.5891231,135.236226 L28.2443371,135.266913 L25.7554665,97.915821 C25.7554665,97.915821 21.6993173,133.047918 14.6088735,135.266913 C7.51842962,137.485908 -9.16985752,113.795969 -20,101.047589 L-14.526879,96.9273974 C-8.07838638,101.261352 9.65981554,120.936359 9.92976186,119.707102 C11.4001175,113.011533 14.6088735,83.770556 14.6088735,83.770556 C14.6088735,83.770556 16.2707325,68.9684128 25.7554665,67 Z" id="Path-20" fill="url(#linearGradient-5)" mask="url(#mask-2)"></path>
+                        <path d="M35.3628516,26.6797026 C32.9653229,22.3319318 27.644796,11.399975 49.3622036,16.1898378 C71.0796113,20.9797006 61.1966633,29.9145557 57.7426902,43 C57.7426902,43 55.082136,42.1046604 55.082136,35.7891632 C55.9697626,29.4039241 37.7603803,31.0274733 35.3628516,26.6797026 Z" id="Path-26" fill="url(#linearGradient-6)" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

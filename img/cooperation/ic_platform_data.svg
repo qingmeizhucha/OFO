@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_platform_data</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <linearGradient x1="1.11022302e-14%" y1="1.72631048%" x2="58.668174%" y2="83.3971774%" id="linearGradient-3">
+            <stop stop-color="#FFDC00" offset="0%"></stop>
+            <stop stop-color="#FFBC00" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.3522656%" y1="10.0453016%" x2="79.3108496%" y2="93.284193%" id="linearGradient-4">
+            <stop stop-color="#A5E976" offset="0%"></stop>
+            <stop stop-color="#86DA68" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="18.6196408%" y1="15.94951%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FF7A7A" offset="0%"></stop>
+            <stop stop-color="#FF5555" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关于-商业合作" transform="translate(-1001.000000, -333.000000)">
+            <g id="平台规模" transform="translate(0.000000, 73.000000)">
+                <g id="Group-12" transform="translate(987.000000, 260.000000)">
+                    <g id="ic_platform_data" transform="translate(14.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FCF9E6" xlink:href="#path-1"></use>
+                        <rect id="Rectangle-19" fill="url(#linearGradient-3)" mask="url(#mask-2)" x="40" y="48" width="20" height="58" rx="3"></rect>
+                        <rect id="Rectangle-19-Copy-2" fill="url(#linearGradient-4)" mask="url(#mask-2)" x="68" y="28" width="20" height="78" rx="3"></rect>
+                        <rect id="Rectangle-19-Copy" fill="url(#linearGradient-5)" mask="url(#mask-2)" x="12" y="67" width="20" height="50" rx="3"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
